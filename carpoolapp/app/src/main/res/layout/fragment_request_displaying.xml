@@ -3,17 +3,18 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".OffersDisplayingFragment">
+    tools:context=".RequestDisplayingFragment">
 
     <!-- TODO: Update blank fragment layout -->
+    <!-- TODO: Update blank fragment layout -->
     <TextView
-        android:id="@+id/OfferDisplayingTitle"
+        android:id="@+id/RequestDisplayingTitle"
         android:layout_width="255dp"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
         android:layout_marginBottom="850px"
         android:gravity="center"
-        android:text="Matching Offers"
+        android:text="Requests To Join Your Ride"
         android:textColor="@color/purple_700"
         android:textSize="30dp" />
 
@@ -21,5 +22,14 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_marginTop="250px"/>
+
+    <Button
+        android:id="@+id/confirmrideButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Confirm this TaxiPool Ride"
+        android:layout_gravity="bottom|center"
+        android:layout_marginBottom="15dp"/>
+
 
 </FrameLayout>

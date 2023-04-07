@@ -2,6 +2,7 @@
 <resources>
     <color name="purple_200">#FFBB86FC</color>
     <color name="orange_light">#FFAF3A</color>
+    <color name="orange_tint">#FFD699</color>
     <color name="purple_700">#6D13FF</color>
     <color name="teal_200">#FF03DAC5</color>
     <color name="teal_700">#FF018786</color>
