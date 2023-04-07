@@ -1929,7 +1929,8 @@ color mtrl_textinput_focused_box_stroke_color
 color mtrl_textinput_hovered_box_stroke_color
 color notification_action_color_filter
 color notification_icon_bg_color
-color orange
+color orange_dark
+color orange_light
 color primary_dark_material_dark
 color primary_dark_material_light
 color primary_material_dark
@@ -1939,7 +1940,6 @@ color primary_text_default_material_light
 color primary_text_disabled_material_dark
 color primary_text_disabled_material_light
 color purple_200
-color purple_500
 color purple_700
 color ripple_material_dark
 color ripple_material_light
@@ -2874,8 +2874,10 @@ drawable tooltip_frame_light
 id ALT
 id BOTTOM_END
 id BOTTOM_START
+id BottomNavigationView
 id CTRL
 id FUNCTION
+id FragmentContainer
 id META
 id NO_DEBUG
 id SHIFT
@@ -3083,6 +3085,7 @@ id header_title
 id hideable
 id home
 id homeAsUp
+id homeMenu
 id honorRequest
 id horizontal_only
 id hybrid
@@ -3194,6 +3197,7 @@ id notification_background
 id notification_main_column
 id notification_main_column_container
 id off
+id offerRideMenu
 id on
 id onInterceptTouchReturnSwipe
 id outline
@@ -3219,6 +3223,7 @@ id progress_horizontal
 id radio
 id ratio
 id rectangles
+id requestRideMenu
 id reverseSawtooth
 id right
 id rightToLeft
@@ -3264,6 +3269,7 @@ id search_voice_btn
 id select_dialog_listview
 id selected
 id selection_type
+id settingsMenu
 id sharedValueSet
 id sharedValueUnset
 id shortcut
@@ -3480,6 +3486,7 @@ layout abc_search_dropdown_item_icons_2line
 layout abc_search_view
 layout abc_select_dialog_material
 layout abc_tooltip
+layout activity_main
 layout activity_maps
 layout custom_dialog
 layout design_bottom_navigation_item
@@ -3497,6 +3504,10 @@ layout design_navigation_menu
 layout design_navigation_menu_item
 layout design_text_input_end_icon
 layout design_text_input_start_icon
+layout fragment_home
+layout fragment_offer_ride
+layout fragment_profile
+layout fragment_request_ride
 layout m3_alert_dialog
 layout m3_alert_dialog_actions
 layout m3_alert_dialog_title
@@ -3558,6 +3569,7 @@ layout select_dialog_item_material
 layout select_dialog_multichoice_material
 layout select_dialog_singlechoice_material
 layout support_simple_spinner_dropdown_item
+menu bottom_navbar
 mipmap ic_launcher
 mipmap ic_launcher_round
 plurals mtrl_badge_content_description
@@ -3624,6 +3636,7 @@ string error_icon_content_description
 string exposed_dropdown_menu_content_description
 string fab_transformation_scrim_behavior
 string fab_transformation_sheet_behavior
+string hello_blank_fragment
 string hide_bottom_view_on_scroll_behavior
 string icon_content_description
 string item_view_role_description

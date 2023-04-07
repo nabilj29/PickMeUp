@@ -46,7 +46,7 @@
 29-->[androidx.core:core:1.9.0] /Users/akanksha/.gradle/caches/transforms-3/38216f7abb1f6277af09ed74025a86a0/transformed/core-1.9.0/AndroidManifest.xml:26:22-94
 30
 31    <application
-31-->/Users/akanksha/Desktop/3A04Project/carpoolapp/app/src/main/AndroidManifest.xml:5:5-40:19
+31-->/Users/akanksha/Desktop/3A04Project/carpoolapp/app/src/main/AndroidManifest.xml:5:5-48:19
 32        android:allowBackup="true"
 32-->/Users/akanksha/Desktop/3A04Project/carpoolapp/app/src/main/AndroidManifest.xml:6:9-35
 33        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
@@ -66,89 +66,105 @@
 41        android:testOnly="true"
 42        android:theme="@style/Theme.Carpoolapp" >
 42-->/Users/akanksha/Desktop/3A04Project/carpoolapp/app/src/main/AndroidManifest.xml:12:9-48
-43
-44        <!--
-45             TODO: Before you run your application, you need a Google Maps API key.
-46
-47             To get one, follow the directions here:
+43        <activity
+43-->/Users/akanksha/Desktop/3A04Project/carpoolapp/app/src/main/AndroidManifest.xml:14:9-22:20
+44            android:name="com.example.carpoolapp.MainActivity"
+44-->/Users/akanksha/Desktop/3A04Project/carpoolapp/app/src/main/AndroidManifest.xml:15:13-41
+45            android:exported="true" >
+45-->/Users/akanksha/Desktop/3A04Project/carpoolapp/app/src/main/AndroidManifest.xml:16:13-36
+46            <intent-filter>
+46-->/Users/akanksha/Desktop/3A04Project/carpoolapp/app/src/main/AndroidManifest.xml:17:13-21:29
+47                <action android:name="android.intent.action.MAIN" />
+47-->/Users/akanksha/Desktop/3A04Project/carpoolapp/app/src/main/AndroidManifest.xml:18:17-69
+47-->/Users/akanksha/Desktop/3A04Project/carpoolapp/app/src/main/AndroidManifest.xml:18:25-66
 48
-49                https://developers.google.com/maps/documentation/android-sdk/get-api-key
-50
-51             Once you have your API key (it starts with "AIza"), define a new property in your
-52             project's local.properties file (e.g. MAPS_API_KEY=Aiza...), and replace the
-53             "YOUR_API_KEY" string in this file with "${MAPS_API_KEY}".
-54        -->
-55        <meta-data
-55-->/Users/akanksha/Desktop/3A04Project/carpoolapp/app/src/main/AndroidManifest.xml:26:9-28:71
-56            android:name="com.google.android.geo.API_KEY"
-56-->/Users/akanksha/Desktop/3A04Project/carpoolapp/app/src/main/AndroidManifest.xml:27:13-58
-57            android:value="AIzaSyBfRWovo8RlfJVGzSPkn7rMn2Fvs01HNvY" />
-57-->/Users/akanksha/Desktop/3A04Project/carpoolapp/app/src/main/AndroidManifest.xml:28:13-68
+49                <category android:name="android.intent.category.LAUNCHER" />
+49-->/Users/akanksha/Desktop/3A04Project/carpoolapp/app/src/main/AndroidManifest.xml:20:17-77
+49-->/Users/akanksha/Desktop/3A04Project/carpoolapp/app/src/main/AndroidManifest.xml:20:27-74
+50            </intent-filter>
+51        </activity>
+52        <!--
+53             TODO: Before you run your application, you need a Google Maps API key.
+54
+55             To get one, follow the directions here:
+56
+57                https://developers.google.com/maps/documentation/android-sdk/get-api-key
 58
-59        <activity
-59-->/Users/akanksha/Desktop/3A04Project/carpoolapp/app/src/main/AndroidManifest.xml:30:9-39:20
-60            android:name="com.example.carpoolapp.MapsActivity"
-60-->/Users/akanksha/Desktop/3A04Project/carpoolapp/app/src/main/AndroidManifest.xml:31:13-41
-61            android:exported="true"
-61-->/Users/akanksha/Desktop/3A04Project/carpoolapp/app/src/main/AndroidManifest.xml:32:13-36
-62            android:label="@string/title_activity_maps" >
-62-->/Users/akanksha/Desktop/3A04Project/carpoolapp/app/src/main/AndroidManifest.xml:33:13-56
-63            <intent-filter>
-63-->/Users/akanksha/Desktop/3A04Project/carpoolapp/app/src/main/AndroidManifest.xml:34:13-38:29
-64                <action android:name="android.intent.action.MAIN" />
-64-->/Users/akanksha/Desktop/3A04Project/carpoolapp/app/src/main/AndroidManifest.xml:35:17-69
-64-->/Users/akanksha/Desktop/3A04Project/carpoolapp/app/src/main/AndroidManifest.xml:35:25-66
-65
-66                <category android:name="android.intent.category.LAUNCHER" />
-66-->/Users/akanksha/Desktop/3A04Project/carpoolapp/app/src/main/AndroidManifest.xml:37:17-77
-66-->/Users/akanksha/Desktop/3A04Project/carpoolapp/app/src/main/AndroidManifest.xml:37:27-74
-67            </intent-filter>
-68        </activity>
-69        <!-- Needs to be explicitly declared on P+ -->
-70        <uses-library
-70-->[com.google.android.gms:play-services-maps:18.1.0] /Users/akanksha/.gradle/caches/transforms-3/03c1279fd0c5e3fdf14c14a870e9b703/transformed/play-services-maps-18.1.0/AndroidManifest.xml:39:9-41:40
-71            android:name="org.apache.http.legacy"
-71-->[com.google.android.gms:play-services-maps:18.1.0] /Users/akanksha/.gradle/caches/transforms-3/03c1279fd0c5e3fdf14c14a870e9b703/transformed/play-services-maps-18.1.0/AndroidManifest.xml:40:13-50
-72            android:required="false" />
-72-->[com.google.android.gms:play-services-maps:18.1.0] /Users/akanksha/.gradle/caches/transforms-3/03c1279fd0c5e3fdf14c14a870e9b703/transformed/play-services-maps-18.1.0/AndroidManifest.xml:41:13-37
+59             Once you have your API key (it starts with "AIza"), define a new property in your
+60             project's local.properties file (e.g. MAPS_API_KEY=Aiza...), and replace the
+61             "YOUR_API_KEY" string in this file with "${MAPS_API_KEY}".
+62        -->
+63        <meta-data
+63-->/Users/akanksha/Desktop/3A04Project/carpoolapp/app/src/main/AndroidManifest.xml:34:9-36:71
+64            android:name="com.google.android.geo.API_KEY"
+64-->/Users/akanksha/Desktop/3A04Project/carpoolapp/app/src/main/AndroidManifest.xml:35:13-58
+65            android:value="AIzaSyBfRWovo8RlfJVGzSPkn7rMn2Fvs01HNvY" />
+65-->/Users/akanksha/Desktop/3A04Project/carpoolapp/app/src/main/AndroidManifest.xml:36:13-68
+66
+67        <activity
+67-->/Users/akanksha/Desktop/3A04Project/carpoolapp/app/src/main/AndroidManifest.xml:38:9-47:20
+68            android:name="com.example.carpoolapp.MapsActivity"
+68-->/Users/akanksha/Desktop/3A04Project/carpoolapp/app/src/main/AndroidManifest.xml:39:13-41
+69            android:exported="true"
+69-->/Users/akanksha/Desktop/3A04Project/carpoolapp/app/src/main/AndroidManifest.xml:40:13-36
+70            android:label="@string/title_activity_maps" >
+70-->/Users/akanksha/Desktop/3A04Project/carpoolapp/app/src/main/AndroidManifest.xml:41:13-56
+71            <intent-filter>
+71-->/Users/akanksha/Desktop/3A04Project/carpoolapp/app/src/main/AndroidManifest.xml:17:13-21:29
+72                <action android:name="android.intent.action.MAIN" />
+72-->/Users/akanksha/Desktop/3A04Project/carpoolapp/app/src/main/AndroidManifest.xml:18:17-69
+72-->/Users/akanksha/Desktop/3A04Project/carpoolapp/app/src/main/AndroidManifest.xml:18:25-66
 73
-74        <activity
-74-->[com.google.android.gms:play-services-base:18.0.1] /Users/akanksha/.gradle/caches/transforms-3/c13cc33da1f68158fed22e6521b13786/transformed/play-services-base-18.0.1/AndroidManifest.xml:20:9-22:45
-75            android:name="com.google.android.gms.common.api.GoogleApiActivity"
-75-->[com.google.android.gms:play-services-base:18.0.1] /Users/akanksha/.gradle/caches/transforms-3/c13cc33da1f68158fed22e6521b13786/transformed/play-services-base-18.0.1/AndroidManifest.xml:20:19-85
-76            android:exported="false"
-76-->[com.google.android.gms:play-services-base:18.0.1] /Users/akanksha/.gradle/caches/transforms-3/c13cc33da1f68158fed22e6521b13786/transformed/play-services-base-18.0.1/AndroidManifest.xml:22:19-43
-77            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
-77-->[com.google.android.gms:play-services-base:18.0.1] /Users/akanksha/.gradle/caches/transforms-3/c13cc33da1f68158fed22e6521b13786/transformed/play-services-base-18.0.1/AndroidManifest.xml:21:19-78
-78
-79        <meta-data
-79-->[com.google.android.gms:play-services-basement:18.0.0] /Users/akanksha/.gradle/caches/transforms-3/32cb4d0f8dcd033bf04e179468b1a5ad/transformed/play-services-basement-18.0.0/AndroidManifest.xml:21:9-23:69
-80            android:name="com.google.android.gms.version"
-80-->[com.google.android.gms:play-services-basement:18.0.0] /Users/akanksha/.gradle/caches/transforms-3/32cb4d0f8dcd033bf04e179468b1a5ad/transformed/play-services-basement-18.0.0/AndroidManifest.xml:22:13-58
-81            android:value="@integer/google_play_services_version" />
-81-->[com.google.android.gms:play-services-basement:18.0.0] /Users/akanksha/.gradle/caches/transforms-3/32cb4d0f8dcd033bf04e179468b1a5ad/transformed/play-services-basement-18.0.0/AndroidManifest.xml:23:13-66
-82
-83        <provider
-83-->[androidx.emoji2:emoji2:1.2.0] /Users/akanksha/.gradle/caches/transforms-3/3860fa31eb29b16206d9d78d108867f7/transformed/emoji2-1.2.0/AndroidManifest.xml:24:9-32:20
-84            android:name="androidx.startup.InitializationProvider"
-84-->[androidx.emoji2:emoji2:1.2.0] /Users/akanksha/.gradle/caches/transforms-3/3860fa31eb29b16206d9d78d108867f7/transformed/emoji2-1.2.0/AndroidManifest.xml:25:13-67
-85            android:authorities="com.example.carpoolapp.androidx-startup"
-85-->[androidx.emoji2:emoji2:1.2.0] /Users/akanksha/.gradle/caches/transforms-3/3860fa31eb29b16206d9d78d108867f7/transformed/emoji2-1.2.0/AndroidManifest.xml:26:13-68
-86            android:exported="false" >
-86-->[androidx.emoji2:emoji2:1.2.0] /Users/akanksha/.gradle/caches/transforms-3/3860fa31eb29b16206d9d78d108867f7/transformed/emoji2-1.2.0/AndroidManifest.xml:27:13-37
-87            <meta-data
-87-->[androidx.emoji2:emoji2:1.2.0] /Users/akanksha/.gradle/caches/transforms-3/3860fa31eb29b16206d9d78d108867f7/transformed/emoji2-1.2.0/AndroidManifest.xml:29:13-31:52
-88                android:name="androidx.emoji2.text.EmojiCompatInitializer"
-88-->[androidx.emoji2:emoji2:1.2.0] /Users/akanksha/.gradle/caches/transforms-3/3860fa31eb29b16206d9d78d108867f7/transformed/emoji2-1.2.0/AndroidManifest.xml:30:17-75
-89                android:value="androidx.startup" />
-89-->[androidx.emoji2:emoji2:1.2.0] /Users/akanksha/.gradle/caches/transforms-3/3860fa31eb29b16206d9d78d108867f7/transformed/emoji2-1.2.0/AndroidManifest.xml:31:17-49
-90            <meta-data
-90-->[androidx.lifecycle:lifecycle-process:2.4.1] /Users/akanksha/.gradle/caches/transforms-3/72f506997ab5f34a1fe10db8a30fcbea/transformed/lifecycle-process-2.4.1/AndroidManifest.xml:31:13-33:52
-91                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
-91-->[androidx.lifecycle:lifecycle-process:2.4.1] /Users/akanksha/.gradle/caches/transforms-3/72f506997ab5f34a1fe10db8a30fcbea/transformed/lifecycle-process-2.4.1/AndroidManifest.xml:32:17-78
-92                android:value="androidx.startup" />
-92-->[androidx.lifecycle:lifecycle-process:2.4.1] /Users/akanksha/.gradle/caches/transforms-3/72f506997ab5f34a1fe10db8a30fcbea/transformed/lifecycle-process-2.4.1/AndroidManifest.xml:33:17-49
-93        </provider>
-94    </application>
-95
-96</manifest>
+74                <category android:name="android.intent.category.LAUNCHER" />
+74-->/Users/akanksha/Desktop/3A04Project/carpoolapp/app/src/main/AndroidManifest.xml:20:17-77
+74-->/Users/akanksha/Desktop/3A04Project/carpoolapp/app/src/main/AndroidManifest.xml:20:27-74
+75            </intent-filter>
+76        </activity>
+77        <!-- Needs to be explicitly declared on P+ -->
+78        <uses-library
+78-->[com.google.android.gms:play-services-maps:18.1.0] /Users/akanksha/.gradle/caches/transforms-3/03c1279fd0c5e3fdf14c14a870e9b703/transformed/play-services-maps-18.1.0/AndroidManifest.xml:39:9-41:40
+79            android:name="org.apache.http.legacy"
+79-->[com.google.android.gms:play-services-maps:18.1.0] /Users/akanksha/.gradle/caches/transforms-3/03c1279fd0c5e3fdf14c14a870e9b703/transformed/play-services-maps-18.1.0/AndroidManifest.xml:40:13-50
+80            android:required="false" />
+80-->[com.google.android.gms:play-services-maps:18.1.0] /Users/akanksha/.gradle/caches/transforms-3/03c1279fd0c5e3fdf14c14a870e9b703/transformed/play-services-maps-18.1.0/AndroidManifest.xml:41:13-37
+81
+82        <activity
+82-->[com.google.android.gms:play-services-base:18.0.1] /Users/akanksha/.gradle/caches/transforms-3/c13cc33da1f68158fed22e6521b13786/transformed/play-services-base-18.0.1/AndroidManifest.xml:20:9-22:45
+83            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+83-->[com.google.android.gms:play-services-base:18.0.1] /Users/akanksha/.gradle/caches/transforms-3/c13cc33da1f68158fed22e6521b13786/transformed/play-services-base-18.0.1/AndroidManifest.xml:20:19-85
+84            android:exported="false"
+84-->[com.google.android.gms:play-services-base:18.0.1] /Users/akanksha/.gradle/caches/transforms-3/c13cc33da1f68158fed22e6521b13786/transformed/play-services-base-18.0.1/AndroidManifest.xml:22:19-43
+85            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+85-->[com.google.android.gms:play-services-base:18.0.1] /Users/akanksha/.gradle/caches/transforms-3/c13cc33da1f68158fed22e6521b13786/transformed/play-services-base-18.0.1/AndroidManifest.xml:21:19-78
+86
+87        <meta-data
+87-->[com.google.android.gms:play-services-basement:18.0.0] /Users/akanksha/.gradle/caches/transforms-3/32cb4d0f8dcd033bf04e179468b1a5ad/transformed/play-services-basement-18.0.0/AndroidManifest.xml:21:9-23:69
+88            android:name="com.google.android.gms.version"
+88-->[com.google.android.gms:play-services-basement:18.0.0] /Users/akanksha/.gradle/caches/transforms-3/32cb4d0f8dcd033bf04e179468b1a5ad/transformed/play-services-basement-18.0.0/AndroidManifest.xml:22:13-58
+89            android:value="@integer/google_play_services_version" />
+89-->[com.google.android.gms:play-services-basement:18.0.0] /Users/akanksha/.gradle/caches/transforms-3/32cb4d0f8dcd033bf04e179468b1a5ad/transformed/play-services-basement-18.0.0/AndroidManifest.xml:23:13-66
+90
+91        <provider
+91-->[androidx.emoji2:emoji2:1.2.0] /Users/akanksha/.gradle/caches/transforms-3/3860fa31eb29b16206d9d78d108867f7/transformed/emoji2-1.2.0/AndroidManifest.xml:24:9-32:20
+92            android:name="androidx.startup.InitializationProvider"
+92-->[androidx.emoji2:emoji2:1.2.0] /Users/akanksha/.gradle/caches/transforms-3/3860fa31eb29b16206d9d78d108867f7/transformed/emoji2-1.2.0/AndroidManifest.xml:25:13-67
+93            android:authorities="com.example.carpoolapp.androidx-startup"
+93-->[androidx.emoji2:emoji2:1.2.0] /Users/akanksha/.gradle/caches/transforms-3/3860fa31eb29b16206d9d78d108867f7/transformed/emoji2-1.2.0/AndroidManifest.xml:26:13-68
+94            android:exported="false" >
+94-->[androidx.emoji2:emoji2:1.2.0] /Users/akanksha/.gradle/caches/transforms-3/3860fa31eb29b16206d9d78d108867f7/transformed/emoji2-1.2.0/AndroidManifest.xml:27:13-37
+95            <meta-data
+95-->[androidx.emoji2:emoji2:1.2.0] /Users/akanksha/.gradle/caches/transforms-3/3860fa31eb29b16206d9d78d108867f7/transformed/emoji2-1.2.0/AndroidManifest.xml:29:13-31:52
+96                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+96-->[androidx.emoji2:emoji2:1.2.0] /Users/akanksha/.gradle/caches/transforms-3/3860fa31eb29b16206d9d78d108867f7/transformed/emoji2-1.2.0/AndroidManifest.xml:30:17-75
+97                android:value="androidx.startup" />
+97-->[androidx.emoji2:emoji2:1.2.0] /Users/akanksha/.gradle/caches/transforms-3/3860fa31eb29b16206d9d78d108867f7/transformed/emoji2-1.2.0/AndroidManifest.xml:31:17-49
+98            <meta-data
+98-->[androidx.lifecycle:lifecycle-process:2.4.1] /Users/akanksha/.gradle/caches/transforms-3/72f506997ab5f34a1fe10db8a30fcbea/transformed/lifecycle-process-2.4.1/AndroidManifest.xml:31:13-33:52
+99                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+99-->[androidx.lifecycle:lifecycle-process:2.4.1] /Users/akanksha/.gradle/caches/transforms-3/72f506997ab5f34a1fe10db8a30fcbea/transformed/lifecycle-process-2.4.1/AndroidManifest.xml:32:17-78
+100                android:value="androidx.startup" />
+100-->[androidx.lifecycle:lifecycle-process:2.4.1] /Users/akanksha/.gradle/caches/transforms-3/72f506997ab5f34a1fe10db8a30fcbea/transformed/lifecycle-process-2.4.1/AndroidManifest.xml:33:17-49
+101        </provider>
+102    </application>
+103
+104</manifest>
