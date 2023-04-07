@@ -1,14 +1,126 @@
 <?xml version="1.0" encoding="utf-8"?>
 <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".RequestRideFragment">
 
     <!-- TODO: Update blank fragment layout -->
+
     <TextView
+        android:id="@+id/TaxiIDtext"
+        android:layout_width="210dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:layout_marginBottom="600px"
+        android:gravity="center"
+        android:text="Request a Taxi Carpool"
+        android:textColor="@color/purple_700"
+        android:textSize="30dp" />
+
+    <EditText
+        android:id="@+id/searchStartingLocation"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="14"
+        android:layout_gravity="center"
+        android:layout_marginBottom="400px"
+        android:inputType="textPersonName"
+        android:hint=" Search Starting Address" />
+
+    <EditText
+        android:id="@+id/searchDestinationLocation"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="14"
+        android:layout_gravity="center"
+        android:layout_marginBottom="250px"
+        android:inputType="textPersonName"
+        android:hint="Search Destination Address" />
+
+    <EditText
+        android:id="@+id/searchMaxRiders"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="14"
+        android:layout_gravity="center"
+        android:layout_marginTop="-100px"
+        android:inputType="textPersonName"
+        android:hint=" Search Max Riders (ex. 3)" />
+
+    <EditText
+        android:id="@+id/searchOfferingUser"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="14"
+        android:layout_gravity="center"
+        android:layout_marginTop="50px"
+        android:inputType="textPersonName"
+        android:hint=" Search Offering User (optional)" />
+
+
+    <TextView
+        android:id="@+id/Filteroptionaltext"
+        android:layout_width="303dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:layout_marginBottom="-200px"
+        android:text="Filter Offers (Optional)" />
+
+
+    <Switch
+        android:id="@+id/HighesttoLowestSwitch"
+        android:layout_width="wrap_content"
+
+        android:layout_gravity="left"
+        android:layout_height="48dp"
+        android:layoutDirection="rtl"
+        android:text="Highest to Lowest Rating"
+        android:layout_marginLeft="70dp"
+        android:layout_marginTop="1250px"
+        android:textColor="@color/purple_700"
+        app:trackTint="@color/orange_light"
+        app:thumbTint="@color/orange_light"/>
+
+        />
+
+    <Switch
+        android:id="@+id/NearesttoFurthestSwitch"
+        android:layout_width="wrap_content"
+        android:layout_height="48dp"
+        android:layout_gravity="left"
+        android:layoutDirection="rtl"
+        android:text="Nearest to Furthest Starting Location"
+        android:layout_marginLeft="70dp"
+        android:layout_marginTop="1350px"
+        android:textColor="@color/purple_700"
+        app:trackTint="@color/orange_light"
+        app:thumbTint="@color/orange_light"
+
+        />
+
+    <Button
+        android:id="@+id/searchOffersButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="650px"
+        android:text="Search All Offers" />
+
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/BottomNavigationView"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:text="Users can see potential offers here" />
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="@color/white"
+        android:layout_gravity="bottom"
+        app:menu="@menu/bottom_navbar" />
 
 </FrameLayout>
+
