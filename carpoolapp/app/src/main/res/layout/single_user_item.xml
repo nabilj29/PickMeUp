@@ -20,20 +20,20 @@
 
 
         <TextView
-            android:id="@+id/requestingusernameheading"
+            android:id="@+id/carpoolmembernameheading"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
 
-            android:text="Requesting User: "
+            android:text="User: "
             android:textStyle="bold"
             android:textSize="18dp"
             />
 
         <TextView
-            android:id="@+id/requestingusernamefield"
+            android:id="@+id/carpoolmemberusernamefield"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Requesting User Name "
+            android:text="Carpool Member Name "
             android:textSize="18sp"
             />
     </LinearLayout>
@@ -49,7 +49,7 @@
             android:id="@+id/startinglocationheading"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Starting Location: "
+            android:text="Pickup Location: "
             android:textStyle="bold"
             android:textSize="18dp"
             />
@@ -140,21 +140,6 @@
             />
     </LinearLayout>
 
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:gravity="center|top">
-
-        <RadioButton
-            android:id="@+id/radioButton"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Add this User to Trip"
-            android:layout_marginTop="550px"
-            android:textSize="17dp"
-            android:textColor="@color/purple_700"/>
-
-    </LinearLayout>
 
 
 
