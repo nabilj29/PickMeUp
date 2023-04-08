@@ -4,20 +4,43 @@ package com.example.carpoolapp.databinding;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.Button;
+import android.widget.EditText;
 import android.widget.FrameLayout;
+import android.widget.ImageView;
+import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.viewbinding.ViewBinding;
+import androidx.viewbinding.ViewBindings;
 import com.example.carpoolapp.R;
 import java.lang.NullPointerException;
 import java.lang.Override;
+import java.lang.String;
 
 public final class FragmentOfferRideBinding implements ViewBinding {
   @NonNull
   private final FrameLayout rootView;
 
-  private FragmentOfferRideBinding(@NonNull FrameLayout rootView) {
+  @NonNull
+  public final TextView TaxiIDtext;
+
+  @NonNull
+  public final EditText enterTaxiID;
+
+  @NonNull
+  public final ImageView imageView;
+
+  @NonNull
+  public final Button submitIDbutton;
+
+  private FragmentOfferRideBinding(@NonNull FrameLayout rootView, @NonNull TextView TaxiIDtext,
+      @NonNull EditText enterTaxiID, @NonNull ImageView imageView, @NonNull Button submitIDbutton) {
     this.rootView = rootView;
+    this.TaxiIDtext = TaxiIDtext;
+    this.enterTaxiID = enterTaxiID;
+    this.imageView = imageView;
+    this.submitIDbutton = submitIDbutton;
   }
 
   @Override
@@ -43,10 +66,38 @@ public final class FragmentOfferRideBinding implements ViewBinding {
 
   @NonNull
   public static FragmentOfferRideBinding bind(@NonNull View rootView) {
-    if (rootView == null) {
-      throw new NullPointerException("rootView");
-    }
+    // The body of this method is generated in a way you would not otherwise write.
+    // This is done to optimize the compiled bytecode for size and performance.
+    int id;
+    missingId: {
+      id = R.id.TaxiIDtext;
+      TextView TaxiIDtext = ViewBindings.findChildViewById(rootView, id);
+      if (TaxiIDtext == null) {
+        break missingId;
+      }
 
-    return new FragmentOfferRideBinding((FrameLayout) rootView);
+      id = R.id.enterTaxiID;
+      EditText enterTaxiID = ViewBindings.findChildViewById(rootView, id);
+      if (enterTaxiID == null) {
+        break missingId;
+      }
+
+      id = R.id.imageView;
+      ImageView imageView = ViewBindings.findChildViewById(rootView, id);
+      if (imageView == null) {
+        break missingId;
+      }
+
+      id = R.id.submitIDbutton;
+      Button submitIDbutton = ViewBindings.findChildViewById(rootView, id);
+      if (submitIDbutton == null) {
+        break missingId;
+      }
+
+      return new FragmentOfferRideBinding((FrameLayout) rootView, TaxiIDtext, enterTaxiID,
+          imageView, submitIDbutton);
+    }
+    String missingId = rootView.getResources().getResourceName(id);
+    throw new NullPointerException("Missing required view with ID: ".concat(missingId));
   }
 }

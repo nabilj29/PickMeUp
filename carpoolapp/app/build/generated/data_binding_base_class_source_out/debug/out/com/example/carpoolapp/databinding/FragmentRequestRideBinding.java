@@ -4,20 +4,67 @@ package com.example.carpoolapp.databinding;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.Button;
+import android.widget.EditText;
 import android.widget.FrameLayout;
+import android.widget.Switch;
+import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.viewbinding.ViewBinding;
+import androidx.viewbinding.ViewBindings;
 import com.example.carpoolapp.R;
 import java.lang.NullPointerException;
 import java.lang.Override;
+import java.lang.String;
 
 public final class FragmentRequestRideBinding implements ViewBinding {
   @NonNull
   private final FrameLayout rootView;
 
-  private FragmentRequestRideBinding(@NonNull FrameLayout rootView) {
+  @NonNull
+  public final TextView Filteroptionaltext;
+
+  @NonNull
+  public final Switch HighesttoLowestSwitch;
+
+  @NonNull
+  public final Switch NearesttoFurthestSwitch;
+
+  @NonNull
+  public final TextView TaxiIDtext;
+
+  @NonNull
+  public final EditText searchDestinationLocation;
+
+  @NonNull
+  public final EditText searchMaxRiders;
+
+  @NonNull
+  public final EditText searchOfferingUser;
+
+  @NonNull
+  public final Button searchOffersButton;
+
+  @NonNull
+  public final EditText searchStartingLocation;
+
+  private FragmentRequestRideBinding(@NonNull FrameLayout rootView,
+      @NonNull TextView Filteroptionaltext, @NonNull Switch HighesttoLowestSwitch,
+      @NonNull Switch NearesttoFurthestSwitch, @NonNull TextView TaxiIDtext,
+      @NonNull EditText searchDestinationLocation, @NonNull EditText searchMaxRiders,
+      @NonNull EditText searchOfferingUser, @NonNull Button searchOffersButton,
+      @NonNull EditText searchStartingLocation) {
     this.rootView = rootView;
+    this.Filteroptionaltext = Filteroptionaltext;
+    this.HighesttoLowestSwitch = HighesttoLowestSwitch;
+    this.NearesttoFurthestSwitch = NearesttoFurthestSwitch;
+    this.TaxiIDtext = TaxiIDtext;
+    this.searchDestinationLocation = searchDestinationLocation;
+    this.searchMaxRiders = searchMaxRiders;
+    this.searchOfferingUser = searchOfferingUser;
+    this.searchOffersButton = searchOffersButton;
+    this.searchStartingLocation = searchStartingLocation;
   }
 
   @Override
@@ -43,10 +90,69 @@ public final class FragmentRequestRideBinding implements ViewBinding {
 
   @NonNull
   public static FragmentRequestRideBinding bind(@NonNull View rootView) {
-    if (rootView == null) {
-      throw new NullPointerException("rootView");
-    }
+    // The body of this method is generated in a way you would not otherwise write.
+    // This is done to optimize the compiled bytecode for size and performance.
+    int id;
+    missingId: {
+      id = R.id.Filteroptionaltext;
+      TextView Filteroptionaltext = ViewBindings.findChildViewById(rootView, id);
+      if (Filteroptionaltext == null) {
+        break missingId;
+      }
 
-    return new FragmentRequestRideBinding((FrameLayout) rootView);
+      id = R.id.HighesttoLowestSwitch;
+      Switch HighesttoLowestSwitch = ViewBindings.findChildViewById(rootView, id);
+      if (HighesttoLowestSwitch == null) {
+        break missingId;
+      }
+
+      id = R.id.NearesttoFurthestSwitch;
+      Switch NearesttoFurthestSwitch = ViewBindings.findChildViewById(rootView, id);
+      if (NearesttoFurthestSwitch == null) {
+        break missingId;
+      }
+
+      id = R.id.TaxiIDtext;
+      TextView TaxiIDtext = ViewBindings.findChildViewById(rootView, id);
+      if (TaxiIDtext == null) {
+        break missingId;
+      }
+
+      id = R.id.searchDestinationLocation;
+      EditText searchDestinationLocation = ViewBindings.findChildViewById(rootView, id);
+      if (searchDestinationLocation == null) {
+        break missingId;
+      }
+
+      id = R.id.searchMaxRiders;
+      EditText searchMaxRiders = ViewBindings.findChildViewById(rootView, id);
+      if (searchMaxRiders == null) {
+        break missingId;
+      }
+
+      id = R.id.searchOfferingUser;
+      EditText searchOfferingUser = ViewBindings.findChildViewById(rootView, id);
+      if (searchOfferingUser == null) {
+        break missingId;
+      }
+
+      id = R.id.searchOffersButton;
+      Button searchOffersButton = ViewBindings.findChildViewById(rootView, id);
+      if (searchOffersButton == null) {
+        break missingId;
+      }
+
+      id = R.id.searchStartingLocation;
+      EditText searchStartingLocation = ViewBindings.findChildViewById(rootView, id);
+      if (searchStartingLocation == null) {
+        break missingId;
+      }
+
+      return new FragmentRequestRideBinding((FrameLayout) rootView, Filteroptionaltext,
+          HighesttoLowestSwitch, NearesttoFurthestSwitch, TaxiIDtext, searchDestinationLocation,
+          searchMaxRiders, searchOfferingUser, searchOffersButton, searchStartingLocation);
+    }
+    String missingId = rootView.getResources().getResourceName(id);
+    throw new NullPointerException("Missing required view with ID: ".concat(missingId));
   }
 }
