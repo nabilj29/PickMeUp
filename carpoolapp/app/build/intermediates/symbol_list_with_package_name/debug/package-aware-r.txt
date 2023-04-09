@@ -2106,6 +2106,8 @@ dimen disabled_alpha_material_light
 dimen fastscroll_default_thickness
 dimen fastscroll_margin
 dimen fastscroll_minimum_range
+dimen fragment_horizontal_margin
+dimen fragment_vertical_margin
 dimen highlight_alpha_material_colored
 dimen highlight_alpha_material_dark
 dimen highlight_alpha_material_light
@@ -3010,6 +3012,7 @@ id closest
 id collapseActionView
 id compress
 id confirm_button
+id confirmratingButton
 id confirmrideButton
 id constraint
 id container
@@ -3060,6 +3063,7 @@ id easeIn
 id easeInOut
 id easeOut
 id east
+id editTextPersonRating
 id edit_query
 id elastic
 id email
@@ -3080,6 +3084,8 @@ id exitUntilCollapsed
 id expand_activities_button
 id expanded_menu
 id fade
+id fareTitle
+id fareValue
 id fill
 id fill_horizontal
 id fill_vertical
@@ -3144,6 +3150,10 @@ id line3
 id linear
 id listMode
 id list_item
+id loginbtn
+id loginpassword
+id logintitle
+id loginusername
 id m3_side_sheet
 id map
 id marquee
@@ -3263,11 +3273,13 @@ id progress_circular
 id progress_horizontal
 id radio
 id radioButton
+id ratingTitle
 id ratingValue
 id ratinguser_rating
 id ratio
 id rectangles
 id recyclerView
+id registerdetailsbtn
 id removeProfilebtn
 id requestRideMenu
 id requesterratingfield
@@ -3336,6 +3348,7 @@ id showTitle
 id sin
 id skipCollapsed
 id skipped
+id skipratingButton
 id slide
 id snackbar_action
 id snackbar_text
@@ -3421,6 +3434,8 @@ id unlabeled
 id up
 id useLogo
 id userName
+id user_registration_password
+id username
 id vertical_only
 id view_offset_helper
 id view_transition
@@ -3568,11 +3583,13 @@ layout design_text_input_start_icon
 layout fragment_final_route_display
 layout fragment_final_trip_display
 layout fragment_home
+layout fragment_login
 layout fragment_offer_ride
 layout fragment_offer_ride_details
 layout fragment_offers_displaying
 layout fragment_profile
 layout fragment_rating_form
+layout fragment_registration
 layout fragment_request_displaying
 layout fragment_request_ride
 layout m3_alert_dialog
@@ -3638,6 +3655,7 @@ layout select_dialog_singlechoice_material
 layout single_offer_item
 layout single_request_item
 layout single_user_item
+layout single_user_rating
 layout support_simple_spinner_dropdown_item
 menu bottom_navbar
 mipmap ic_launcher
@@ -3671,6 +3689,8 @@ string abc_searchview_description_voice
 string abc_shareactionprovider_share_with
 string abc_shareactionprovider_share_with_application
 string abc_toolbar_collapse_description
+string action_sign_in
+string action_sign_in_short
 string androidx_startup
 string app_name
 string appbar_scrolling_view_behavior
@@ -3716,8 +3736,11 @@ string google_storage_bucket
 string hello_blank_fragment
 string hide_bottom_view_on_scroll_behavior
 string icon_content_description
+string invalid_password
+string invalid_username
 string item_view_role_description
 string large_text
+string login_failed
 string m3_sys_motion_easing_emphasized
 string m3_sys_motion_easing_emphasized_accelerate
 string m3_sys_motion_easing_emphasized_decelerate
@@ -3819,6 +3842,8 @@ string path_password_eye_mask_strike_through
 string path_password_eye_mask_visible
 string path_password_strike_through
 string project_id
+string prompt_email
+string prompt_password
 string search_menu_title
 string searchbar_scrolling_view_behavior
 string searchview_clear_text_content_description
@@ -3827,6 +3852,7 @@ string side_sheet_accessibility_pane_title
 string side_sheet_behavior
 string status_bar_notification_info_overflow
 string title_activity_maps
+string welcome
 style AlertDialog_AppCompat
 style AlertDialog_AppCompat_Light
 style Animation_AppCompat_Dialog

@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "com.example.carpoolapp-mergeDebugResources-32:/values-v17/values-v17.xml",
+            "outputFile": "com.example.carpoolapp-mergeDebugResources-38:/values-v17/values-v17.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\nabil\\.gradle\\caches\\transforms-3\\100b132d8f2055c8c72fc498cecaab84\\transformed\\appcompat-1.6.1\\res\\values-v17\\values-v17.xml",
+                    "source": "C:\\Users\\nabil\\.gradle\\caches\\transforms-3\\d5ec653838f23bfcc2d087ae15f0c1a5\\transformed\\appcompat-1.6.1\\res\\values-v17\\values-v17.xml",
                     "from": {
                         "startLines": "2,5,9,12,15,18,22,25,29,33,37,40,43,46,50,53,57",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",

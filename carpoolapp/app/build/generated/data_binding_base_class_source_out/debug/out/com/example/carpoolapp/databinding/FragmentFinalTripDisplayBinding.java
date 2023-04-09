@@ -12,7 +12,6 @@ import androidx.annotation.Nullable;
 import androidx.viewbinding.ViewBinding;
 import androidx.viewbinding.ViewBindings;
 import com.example.carpoolapp.R;
-import com.google.android.material.bottomnavigation.BottomNavigationView;
 import java.lang.NullPointerException;
 import java.lang.Override;
 import java.lang.String;
@@ -22,19 +21,14 @@ public final class FragmentFinalTripDisplayBinding implements ViewBinding {
   private final FrameLayout rootView;
 
   @NonNull
-  public final BottomNavigationView BottomNavigationView;
-
-  @NonNull
   public final TextView finalridedisplayingtitle;
 
   @NonNull
   public final Button finishrideBtn;
 
   private FragmentFinalTripDisplayBinding(@NonNull FrameLayout rootView,
-      @NonNull BottomNavigationView BottomNavigationView,
       @NonNull TextView finalridedisplayingtitle, @NonNull Button finishrideBtn) {
     this.rootView = rootView;
-    this.BottomNavigationView = BottomNavigationView;
     this.finalridedisplayingtitle = finalridedisplayingtitle;
     this.finishrideBtn = finishrideBtn;
   }
@@ -66,12 +60,6 @@ public final class FragmentFinalTripDisplayBinding implements ViewBinding {
     // This is done to optimize the compiled bytecode for size and performance.
     int id;
     missingId: {
-      id = R.id.BottomNavigationView;
-      BottomNavigationView BottomNavigationView = ViewBindings.findChildViewById(rootView, id);
-      if (BottomNavigationView == null) {
-        break missingId;
-      }
-
       id = R.id.finalridedisplayingtitle;
       TextView finalridedisplayingtitle = ViewBindings.findChildViewById(rootView, id);
       if (finalridedisplayingtitle == null) {
@@ -84,8 +72,8 @@ public final class FragmentFinalTripDisplayBinding implements ViewBinding {
         break missingId;
       }
 
-      return new FragmentFinalTripDisplayBinding((FrameLayout) rootView, BottomNavigationView,
-          finalridedisplayingtitle, finishrideBtn);
+      return new FragmentFinalTripDisplayBinding((FrameLayout) rootView, finalridedisplayingtitle,
+          finishrideBtn);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));
