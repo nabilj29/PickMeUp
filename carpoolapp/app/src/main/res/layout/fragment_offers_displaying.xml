@@ -24,13 +24,5 @@
         android:layout_height="match_parent"
         android:layout_marginTop="250px" />
 
-    <com.google.android.material.bottomnavigation.BottomNavigationView
-        android:id="@+id/BottomNavigationView"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_alignParentBottom="true"
-        android:background="@color/white"
-        android:layout_gravity="bottom"
-        app:menu="@menu/bottom_navbar" />
 
 </FrameLayout>

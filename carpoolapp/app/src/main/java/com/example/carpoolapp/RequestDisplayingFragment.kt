@@ -5,6 +5,7 @@ import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import androidx.fragment.app.FragmentTransaction
 
 // TODO: Rename parameter arguments, choose names that match
 // the fragment initialization parameters, e.g. ARG_ITEM_NUMBER
@@ -33,8 +34,14 @@ class RequestDisplayingFragment : Fragment() {
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View? {
-        // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.fragment_request_displaying, container, false)
+        val v = inflater.inflate(R.layout.fragment_request_displaying, container, false)
+        val confirmridebtn = v.findViewById<android.widget.Button>(R.id.confirmrideButton)
+        confirmridebtn.setOnClickListener {
+            val transaction: FragmentTransaction = requireFragmentManager().beginTransaction()
+            transaction.replace(R.id.FragmentContainer, FinalTripDisplayFragment())
+            transaction.commit()
+        }
+        return v
     }
 
     companion object {

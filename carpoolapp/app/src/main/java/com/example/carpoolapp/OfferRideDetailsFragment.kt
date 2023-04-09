@@ -5,6 +5,7 @@ import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import androidx.fragment.app.FragmentTransaction
 
 // TODO: Rename parameter arguments, choose names that match
 // the fragment initialization parameters, e.g. ARG_ITEM_NUMBER
@@ -34,7 +35,14 @@ class OfferRideDetailsFragment : Fragment() {
         savedInstanceState: Bundle?
     ): View? {
         // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.fragment_offer_ride_details, container, false)
+        val v = inflater.inflate(R.layout.fragment_offer_ride_details, container, false)
+        val submitofferbutton = v.findViewById<android.widget.Button>(R.id.submitOfferbutton)
+        submitofferbutton.setOnClickListener {
+            val transaction: FragmentTransaction = requireFragmentManager().beginTransaction()
+            transaction.replace(R.id.FragmentContainer, RequestDisplayingFragment())
+            transaction.commit()
+        }
+        return v
     }
 
     companion object {
