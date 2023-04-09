@@ -4,25 +4,97 @@ package com.example.carpoolapp.databinding;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.FrameLayout;
+import android.widget.Button;
+import android.widget.EditText;
+import android.widget.ImageView;
+import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
+import androidx.constraintlayout.widget.ConstraintLayout;
 import androidx.viewbinding.ViewBinding;
+import androidx.viewbinding.ViewBindings;
 import com.example.carpoolapp.R;
 import java.lang.NullPointerException;
 import java.lang.Override;
+import java.lang.String;
 
 public final class FragmentProfileBinding implements ViewBinding {
   @NonNull
-  private final FrameLayout rootView;
+  private final ConstraintLayout rootView;
 
-  private FragmentProfileBinding(@NonNull FrameLayout rootView) {
+  @NonNull
+  public final EditText address;
+
+  @NonNull
+  public final EditText email;
+
+  @NonNull
+  public final ImageView imageView2;
+
+  @NonNull
+  public final EditText name;
+
+  @NonNull
+  public final TextView pfpAddress;
+
+  @NonNull
+  public final TextView pfpEmailField;
+
+  @NonNull
+  public final TextView pfpNameField;
+
+  @NonNull
+  public final TextView pfpPhoneNumber;
+
+  @NonNull
+  public final TextView pfpRating;
+
+  @NonNull
+  public final TextView pfpUsername;
+
+  @NonNull
+  public final EditText phoneNumber;
+
+  @NonNull
+  public final TextView ratingValue;
+
+  @NonNull
+  public final Button removeProfilebtn;
+
+  @NonNull
+  public final Button saveProfilebtn;
+
+  @NonNull
+  public final EditText userName;
+
+  private FragmentProfileBinding(@NonNull ConstraintLayout rootView, @NonNull EditText address,
+      @NonNull EditText email, @NonNull ImageView imageView2, @NonNull EditText name,
+      @NonNull TextView pfpAddress, @NonNull TextView pfpEmailField, @NonNull TextView pfpNameField,
+      @NonNull TextView pfpPhoneNumber, @NonNull TextView pfpRating, @NonNull TextView pfpUsername,
+      @NonNull EditText phoneNumber, @NonNull TextView ratingValue,
+      @NonNull Button removeProfilebtn, @NonNull Button saveProfilebtn,
+      @NonNull EditText userName) {
     this.rootView = rootView;
+    this.address = address;
+    this.email = email;
+    this.imageView2 = imageView2;
+    this.name = name;
+    this.pfpAddress = pfpAddress;
+    this.pfpEmailField = pfpEmailField;
+    this.pfpNameField = pfpNameField;
+    this.pfpPhoneNumber = pfpPhoneNumber;
+    this.pfpRating = pfpRating;
+    this.pfpUsername = pfpUsername;
+    this.phoneNumber = phoneNumber;
+    this.ratingValue = ratingValue;
+    this.removeProfilebtn = removeProfilebtn;
+    this.saveProfilebtn = saveProfilebtn;
+    this.userName = userName;
   }
 
   @Override
   @NonNull
-  public FrameLayout getRoot() {
+  public ConstraintLayout getRoot() {
     return rootView;
   }
 
@@ -43,10 +115,105 @@ public final class FragmentProfileBinding implements ViewBinding {
 
   @NonNull
   public static FragmentProfileBinding bind(@NonNull View rootView) {
-    if (rootView == null) {
-      throw new NullPointerException("rootView");
-    }
+    // The body of this method is generated in a way you would not otherwise write.
+    // This is done to optimize the compiled bytecode for size and performance.
+    int id;
+    missingId: {
+      id = R.id.address;
+      EditText address = ViewBindings.findChildViewById(rootView, id);
+      if (address == null) {
+        break missingId;
+      }
 
-    return new FragmentProfileBinding((FrameLayout) rootView);
+      id = R.id.email;
+      EditText email = ViewBindings.findChildViewById(rootView, id);
+      if (email == null) {
+        break missingId;
+      }
+
+      id = R.id.imageView2;
+      ImageView imageView2 = ViewBindings.findChildViewById(rootView, id);
+      if (imageView2 == null) {
+        break missingId;
+      }
+
+      id = R.id.name;
+      EditText name = ViewBindings.findChildViewById(rootView, id);
+      if (name == null) {
+        break missingId;
+      }
+
+      id = R.id.pfp_address;
+      TextView pfpAddress = ViewBindings.findChildViewById(rootView, id);
+      if (pfpAddress == null) {
+        break missingId;
+      }
+
+      id = R.id.pfp_email_field;
+      TextView pfpEmailField = ViewBindings.findChildViewById(rootView, id);
+      if (pfpEmailField == null) {
+        break missingId;
+      }
+
+      id = R.id.pfp_name_field;
+      TextView pfpNameField = ViewBindings.findChildViewById(rootView, id);
+      if (pfpNameField == null) {
+        break missingId;
+      }
+
+      id = R.id.pfp_phone_number;
+      TextView pfpPhoneNumber = ViewBindings.findChildViewById(rootView, id);
+      if (pfpPhoneNumber == null) {
+        break missingId;
+      }
+
+      id = R.id.pfp_rating;
+      TextView pfpRating = ViewBindings.findChildViewById(rootView, id);
+      if (pfpRating == null) {
+        break missingId;
+      }
+
+      id = R.id.pfp_username;
+      TextView pfpUsername = ViewBindings.findChildViewById(rootView, id);
+      if (pfpUsername == null) {
+        break missingId;
+      }
+
+      id = R.id.phoneNumber;
+      EditText phoneNumber = ViewBindings.findChildViewById(rootView, id);
+      if (phoneNumber == null) {
+        break missingId;
+      }
+
+      id = R.id.ratingValue;
+      TextView ratingValue = ViewBindings.findChildViewById(rootView, id);
+      if (ratingValue == null) {
+        break missingId;
+      }
+
+      id = R.id.removeProfilebtn;
+      Button removeProfilebtn = ViewBindings.findChildViewById(rootView, id);
+      if (removeProfilebtn == null) {
+        break missingId;
+      }
+
+      id = R.id.saveProfilebtn;
+      Button saveProfilebtn = ViewBindings.findChildViewById(rootView, id);
+      if (saveProfilebtn == null) {
+        break missingId;
+      }
+
+      id = R.id.userName;
+      EditText userName = ViewBindings.findChildViewById(rootView, id);
+      if (userName == null) {
+        break missingId;
+      }
+
+      return new FragmentProfileBinding((ConstraintLayout) rootView, address, email, imageView2,
+          name, pfpAddress, pfpEmailField, pfpNameField, pfpPhoneNumber, pfpRating, pfpUsername,
+          phoneNumber, ratingValue, removeProfilebtn, saveProfilebtn, userName);
+    }
+    String missingId = rootView.getResources().getResourceName(id);
+    throw new NullPointerException("Missing required view with ID: ".concat(missingId));
   }
 }

@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "com.example.carpoolapp-mergeDebugResources-30:/values-small-v4/values-small-v4.xml",
+            "outputFile": "com.example.carpoolapp-mergeDebugResources-32:/values-small-v4/values-small-v4.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\nabil\\.gradle\\caches\\transforms-3\\5a823485f5f258862cc8663b103dc1a5\\transformed\\material-1.8.0\\res\\values-small-v4\\values-small-v4.xml",
+                    "source": "C:\\Users\\nabil\\.gradle\\caches\\transforms-3\\8778dd41ceda07ab901c8ca0f2d8c1eb\\transformed\\material-1.8.0\\res\\values-small-v4\\values-small-v4.xml",
                     "from": {
                         "startLines": "2,3,4,5",
                         "startColumns": "4,4,4,4",

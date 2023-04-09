@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "com.example.carpoolapp-mergeDebugResources-30:/values-h720dp-v13/values-h720dp-v13.xml",
+            "outputFile": "com.example.carpoolapp-mergeDebugResources-32:/values-h720dp-v13/values-h720dp-v13.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\nabil\\.gradle\\caches\\transforms-3\\2904784194112d68f97be9534f7e502f\\transformed\\appcompat-1.6.1\\res\\values-h720dp-v13\\values-h720dp-v13.xml",
+                    "source": "C:\\Users\\nabil\\.gradle\\caches\\transforms-3\\100b132d8f2055c8c72fc498cecaab84\\transformed\\appcompat-1.6.1\\res\\values-h720dp-v13\\values-h720dp-v13.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",

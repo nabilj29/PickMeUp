@@ -27,7 +27,7 @@ public final class FragmentOfferRideDetailsBinding implements ViewBinding {
   public final BottomNavigationView BottomNavigationView;
 
   @NonNull
-  public final TextView TaxiIDtext;
+  public final TextView Titletext;
 
   @NonNull
   public final EditText enterDestinationLocation;
@@ -45,13 +45,13 @@ public final class FragmentOfferRideDetailsBinding implements ViewBinding {
   public final Button submitOfferbutton;
 
   private FragmentOfferRideDetailsBinding(@NonNull FrameLayout rootView,
-      @NonNull BottomNavigationView BottomNavigationView, @NonNull TextView TaxiIDtext,
+      @NonNull BottomNavigationView BottomNavigationView, @NonNull TextView Titletext,
       @NonNull EditText enterDestinationLocation, @NonNull EditText enterMaxRiders,
       @NonNull EditText enterStartingLocation, @NonNull ImageView imageView2,
       @NonNull Button submitOfferbutton) {
     this.rootView = rootView;
     this.BottomNavigationView = BottomNavigationView;
-    this.TaxiIDtext = TaxiIDtext;
+    this.Titletext = Titletext;
     this.enterDestinationLocation = enterDestinationLocation;
     this.enterMaxRiders = enterMaxRiders;
     this.enterStartingLocation = enterStartingLocation;
@@ -92,9 +92,9 @@ public final class FragmentOfferRideDetailsBinding implements ViewBinding {
         break missingId;
       }
 
-      id = R.id.TaxiIDtext;
-      TextView TaxiIDtext = ViewBindings.findChildViewById(rootView, id);
-      if (TaxiIDtext == null) {
+      id = R.id.Titletext;
+      TextView Titletext = ViewBindings.findChildViewById(rootView, id);
+      if (Titletext == null) {
         break missingId;
       }
 
@@ -129,7 +129,7 @@ public final class FragmentOfferRideDetailsBinding implements ViewBinding {
       }
 
       return new FragmentOfferRideDetailsBinding((FrameLayout) rootView, BottomNavigationView,
-          TaxiIDtext, enterDestinationLocation, enterMaxRiders, enterStartingLocation, imageView2,
+          Titletext, enterDestinationLocation, enterMaxRiders, enterStartingLocation, imageView2,
           submitOfferbutton);
     }
     String missingId = rootView.getResources().getResourceName(id);

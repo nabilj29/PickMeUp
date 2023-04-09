@@ -8,6 +8,7 @@ import android.widget.FrameLayout;
 import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
+import androidx.recyclerview.widget.RecyclerView;
 import androidx.viewbinding.ViewBinding;
 import androidx.viewbinding.ViewBindings;
 import com.example.carpoolapp.R;
@@ -26,11 +27,16 @@ public final class FragmentOffersDisplayingBinding implements ViewBinding {
   @NonNull
   public final TextView OfferDisplayingTitle;
 
+  @NonNull
+  public final RecyclerView recyclerView;
+
   private FragmentOffersDisplayingBinding(@NonNull FrameLayout rootView,
-      @NonNull BottomNavigationView BottomNavigationView, @NonNull TextView OfferDisplayingTitle) {
+      @NonNull BottomNavigationView BottomNavigationView, @NonNull TextView OfferDisplayingTitle,
+      @NonNull RecyclerView recyclerView) {
     this.rootView = rootView;
     this.BottomNavigationView = BottomNavigationView;
     this.OfferDisplayingTitle = OfferDisplayingTitle;
+    this.recyclerView = recyclerView;
   }
 
   @Override
@@ -72,8 +78,14 @@ public final class FragmentOffersDisplayingBinding implements ViewBinding {
         break missingId;
       }
 
+      id = R.id.recyclerView;
+      RecyclerView recyclerView = ViewBindings.findChildViewById(rootView, id);
+      if (recyclerView == null) {
+        break missingId;
+      }
+
       return new FragmentOffersDisplayingBinding((FrameLayout) rootView, BottomNavigationView,
-          OfferDisplayingTitle);
+          OfferDisplayingTitle, recyclerView);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));
