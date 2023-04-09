@@ -28,13 +28,17 @@ class OffersDisplayingFragment : Fragment() {
     private lateinit var myAdapter: MyAdapter
     private lateinit var db: DatabaseReference
 
+    override fun onCreate(savedInstanceState: Bundle?) {
+        super.onCreate(savedInstanceState)
+    }
+
 
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View? {
         val rootView = inflater.inflate(R.layout.fragment_offers_displaying, container, false)
-
+        Log.d(TAG, "Fragment view inflated successfully")
         recyclerView = rootView.findViewById(R.id.recyclerView)
         recyclerView.layoutManager = LinearLayoutManager(activity)
         recyclerView.setHasFixedSize(true)
@@ -42,9 +46,11 @@ class OffersDisplayingFragment : Fragment() {
         userArrayList = arrayListOf()
         myAdapter = MyAdapter(userArrayList)
         recyclerView.adapter = myAdapter
+        Log.d(TAG, "Adapter set on RecyclerView")
 
         // initialize Firebase database reference
-        db = Firebase.database.reference.child("User")
+        db = Firebase.database.reference.child("Users")
+        Log.d(TAG, "Connecting to Firebase database...")
 
         db.addValueEventListener(object : ValueEventListener {
             override fun onDataChange(snapshot: DataSnapshot) {
@@ -56,6 +62,7 @@ class OffersDisplayingFragment : Fragment() {
                 }
 
                 myAdapter.notifyDataSetChanged()
+                Log.d(TAG, "Offers retrieved successfully")
             }
 
             override fun onCancelled(error: DatabaseError) {

@@ -14,7 +14,6 @@ import androidx.annotation.Nullable;
 import androidx.viewbinding.ViewBinding;
 import androidx.viewbinding.ViewBindings;
 import com.example.carpoolapp.R;
-import com.google.android.material.bottomnavigation.BottomNavigationView;
 import java.lang.NullPointerException;
 import java.lang.Override;
 import java.lang.String;
@@ -22,9 +21,6 @@ import java.lang.String;
 public final class FragmentOfferRideDetailsBinding implements ViewBinding {
   @NonNull
   private final FrameLayout rootView;
-
-  @NonNull
-  public final BottomNavigationView BottomNavigationView;
 
   @NonNull
   public final TextView Titletext;
@@ -45,12 +41,10 @@ public final class FragmentOfferRideDetailsBinding implements ViewBinding {
   public final Button submitOfferbutton;
 
   private FragmentOfferRideDetailsBinding(@NonNull FrameLayout rootView,
-      @NonNull BottomNavigationView BottomNavigationView, @NonNull TextView Titletext,
-      @NonNull EditText enterDestinationLocation, @NonNull EditText enterMaxRiders,
-      @NonNull EditText enterStartingLocation, @NonNull ImageView imageView2,
-      @NonNull Button submitOfferbutton) {
+      @NonNull TextView Titletext, @NonNull EditText enterDestinationLocation,
+      @NonNull EditText enterMaxRiders, @NonNull EditText enterStartingLocation,
+      @NonNull ImageView imageView2, @NonNull Button submitOfferbutton) {
     this.rootView = rootView;
-    this.BottomNavigationView = BottomNavigationView;
     this.Titletext = Titletext;
     this.enterDestinationLocation = enterDestinationLocation;
     this.enterMaxRiders = enterMaxRiders;
@@ -86,12 +80,6 @@ public final class FragmentOfferRideDetailsBinding implements ViewBinding {
     // This is done to optimize the compiled bytecode for size and performance.
     int id;
     missingId: {
-      id = R.id.BottomNavigationView;
-      BottomNavigationView BottomNavigationView = ViewBindings.findChildViewById(rootView, id);
-      if (BottomNavigationView == null) {
-        break missingId;
-      }
-
       id = R.id.Titletext;
       TextView Titletext = ViewBindings.findChildViewById(rootView, id);
       if (Titletext == null) {
@@ -128,8 +116,8 @@ public final class FragmentOfferRideDetailsBinding implements ViewBinding {
         break missingId;
       }
 
-      return new FragmentOfferRideDetailsBinding((FrameLayout) rootView, BottomNavigationView,
-          Titletext, enterDestinationLocation, enterMaxRiders, enterStartingLocation, imageView2,
+      return new FragmentOfferRideDetailsBinding((FrameLayout) rootView, Titletext,
+          enterDestinationLocation, enterMaxRiders, enterStartingLocation, imageView2,
           submitOfferbutton);
     }
     String missingId = rootView.getResources().getResourceName(id);

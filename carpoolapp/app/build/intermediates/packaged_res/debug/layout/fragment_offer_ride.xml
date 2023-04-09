@@ -33,7 +33,7 @@
         android:layout_gravity="center"
         android:layout_marginBottom="80px"
         android:inputType="textPersonName"
-        android:text="ex. 923852" />
+        android:hint="ex. 923852" />
 
     <Button
         android:id="@+id/submitIDbutton"

@@ -24,21 +24,23 @@ class ProfileFragment : Fragment() {
         _binding = FragmentProfileBinding.inflate(inflater, container, false)
 
         binding.saveProfilebtn.setOnClickListener {
+            val userName = binding.userName.text.toString()
             val name = binding.name.text.toString()
+            val email = binding.email.text.toString()
             val phoneNumber = binding.phoneNumber.text.toString()
             val address = binding.address.text.toString()
-            val userName = binding.userName.text.toString()
-            val email = binding.email.text.toString()
+
+
 
             database = FirebaseDatabase.getInstance().getReference("Users")
-            val user = User(name, phoneNumber, address, userName, email)
+            val user = User(userName, name, email, phoneNumber, address)
             database.child(userName).setValue(user).addOnSuccessListener {
 
+                binding.userName.text.clear()
                 binding.name.text.clear()
+                binding.email.text.clear()
                 binding.phoneNumber.text.clear()
                 binding.address.text.clear()
-                binding.userName.text.clear()
-                binding.email.text.clear()
 
                 Toast.makeText(requireContext(), "Successfully Saved", Toast.LENGTH_SHORT).show()
 

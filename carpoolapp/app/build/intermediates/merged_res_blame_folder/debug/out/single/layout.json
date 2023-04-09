@@ -4,12 +4,12 @@
         "source": "C:\\Users\\nabil\\.gradle\\daemon\\7.5\\com.example.carpoolapp-main-36:\\layout\\fragment_request_displaying.xml"
     },
     {
-        "merged": "C:\\Users\\nabil\\.gradle\\daemon\\7.5\\com.example.carpoolapp-mergeDebugResources-33:\\layout\\single_user_item.xml",
-        "source": "C:\\Users\\nabil\\.gradle\\daemon\\7.5\\com.example.carpoolapp-main-36:\\layout\\single_user_item.xml"
-    },
-    {
         "merged": "C:\\Users\\nabil\\.gradle\\daemon\\7.5\\com.example.carpoolapp-mergeDebugResources-33:\\layout\\activity_maps.xml",
         "source": "C:\\Users\\nabil\\.gradle\\daemon\\7.5\\com.example.carpoolapp-main-36:\\layout\\activity_maps.xml"
+    },
+    {
+        "merged": "C:\\Users\\nabil\\.gradle\\daemon\\7.5\\com.example.carpoolapp-mergeDebugResources-33:\\layout\\single_user_item.xml",
+        "source": "C:\\Users\\nabil\\.gradle\\daemon\\7.5\\com.example.carpoolapp-main-36:\\layout\\single_user_item.xml"
     },
     {
         "merged": "C:\\Users\\nabil\\.gradle\\daemon\\7.5\\com.example.carpoolapp-mergeDebugResources-33:\\layout\\fragment_final_route_display.xml",
@@ -18,6 +18,10 @@
     {
         "merged": "C:\\Users\\nabil\\.gradle\\daemon\\7.5\\com.example.carpoolapp-mergeDebugResources-33:\\layout\\fragment_offer_ride_details.xml",
         "source": "C:\\Users\\nabil\\.gradle\\daemon\\7.5\\com.example.carpoolapp-main-36:\\layout\\fragment_offer_ride_details.xml"
+    },
+    {
+        "merged": "com.example.carpoolapp-mergeDebugResources-33:/layout/fragment_offer_ride.xml",
+        "source": "com.example.carpoolapp-main-36:/layout/fragment_offer_ride.xml"
     },
     {
         "merged": "C:\\Users\\nabil\\.gradle\\daemon\\7.5\\com.example.carpoolapp-mergeDebugResources-33:\\layout\\fragment_offers_displaying.xml",
@@ -42,10 +46,6 @@
     {
         "merged": "C:\\Users\\nabil\\.gradle\\daemon\\7.5\\com.example.carpoolapp-mergeDebugResources-33:\\layout\\single_request_item.xml",
         "source": "C:\\Users\\nabil\\.gradle\\daemon\\7.5\\com.example.carpoolapp-main-36:\\layout\\single_request_item.xml"
-    },
-    {
-        "merged": "com.example.carpoolapp-mergeDebugResources-33:/layout/fragment_offers_displaying.xml",
-        "source": "com.example.carpoolapp-main-36:/layout/fragment_offers_displaying.xml"
     },
     {
         "merged": "C:\\Users\\nabil\\.gradle\\daemon\\7.5\\com.example.carpoolapp-mergeDebugResources-33:\\layout\\fragment_request_ride.xml",

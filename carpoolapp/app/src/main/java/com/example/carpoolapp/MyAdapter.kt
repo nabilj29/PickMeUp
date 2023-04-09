@@ -1,5 +1,6 @@
 package com.example.carpoolapp
 
+import android.util.Log
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
@@ -11,7 +12,7 @@ class MyAdapter(private val userList : ArrayList<User>) : RecyclerView.Adapter<M
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): MyAdapter.MyViewHolder {
 
         val itemView = LayoutInflater.from(parent.context).inflate(R.layout.single_offer_item, parent, false)
-
+        Log.d("MyAdapter", "onCreateViewHolder")
         return MyViewHolder(itemView)
     }
 
@@ -19,16 +20,21 @@ class MyAdapter(private val userList : ArrayList<User>) : RecyclerView.Adapter<M
         val user : User = userList[position]
         holder.userName.text = user.userName
         holder.address.text = user.address
+        Log.d("MyAdapter", "onBindViewHolder")
     }
 
     override fun getItemCount(): Int {
+        Log.d("MyAdapter", "getItemCount: ${userList.size}")
 
         return userList.size
     }
 
     public class MyViewHolder(itemView : View) : RecyclerView.ViewHolder(itemView){
         val userName : TextView = itemView.findViewById(R.id.offeringusernamefield)
-        val address : TextView = itemView.findViewById(R.id.offerdestlocationfield)
+        val address : TextView = itemView.findViewById(R.id.offerstartinglocationfield)
+        init {
+            Log.d("MyAdapter", "MyViewHolder")
+        }
 
     }
 
