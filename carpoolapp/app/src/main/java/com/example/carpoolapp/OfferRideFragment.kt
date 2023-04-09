@@ -37,9 +37,11 @@ class OfferRideFragment : Fragment() {
         // Inflate the layout for this fragment
         val v = inflater.inflate(R.layout.fragment_offer_ride, container, false)
         val submitTaxiIDbutton = v.findViewById<android.widget.Button>(R.id.submitIDbutton)
-        val transaction: FragmentTransaction = requireFragmentManager().beginTransaction()
-        transaction.replace(R.id.FragmentContainer, OfferRideDetailsFragment())
-        transaction.commit()
+        submitTaxiIDbutton.setOnClickListener{
+            val transaction: FragmentTransaction = requireFragmentManager().beginTransaction()
+            transaction.replace(R.id.FragmentContainer, OfferRideDetailsFragment())
+            transaction.commit()
+        }
         return v
     }
 
