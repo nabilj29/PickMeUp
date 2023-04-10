@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /Users/akanksha/Desktop/3A04Project/carpoolapp/app/src/main/AndroidManifest.xml:2:1-59:12
-INJECTED from /Users/akanksha/Desktop/3A04Project/carpoolapp/app/src/main/AndroidManifest.xml:2:1-59:12
-INJECTED from /Users/akanksha/Desktop/3A04Project/carpoolapp/app/src/main/AndroidManifest.xml:2:1-59:12
-INJECTED from /Users/akanksha/Desktop/3A04Project/carpoolapp/app/src/main/AndroidManifest.xml:2:1-59:12
+ADDED from /Users/akanksha/Desktop/3A04Project/carpoolapp/app/src/main/AndroidManifest.xml:2:1-65:12
+INJECTED from /Users/akanksha/Desktop/3A04Project/carpoolapp/app/src/main/AndroidManifest.xml:2:1-65:12
+INJECTED from /Users/akanksha/Desktop/3A04Project/carpoolapp/app/src/main/AndroidManifest.xml:2:1-65:12
+INJECTED from /Users/akanksha/Desktop/3A04Project/carpoolapp/app/src/main/AndroidManifest.xml:2:1-65:12
 MERGED from [androidx.databinding:viewbinding:7.4.0] /Users/akanksha/.gradle/caches/transforms-3/a7b85c08a93fb4374f39417c20d1a4ff/transformed/viewbinding-7.4.0/AndroidManifest.xml:2:1-7:12
 MERGED from [com.google.android.material:material:1.8.0] /Users/akanksha/.gradle/caches/transforms-3/7aedc10f2bd6fcb177921e1786c3d361/transformed/material-1.8.0/AndroidManifest.xml:17:1-26:12
 MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] /Users/akanksha/.gradle/caches/transforms-3/d209fa925e863fcfc8806660e106e97b/transformed/constraintlayout-2.1.4/AndroidManifest.xml:2:1-11:12
@@ -61,27 +61,27 @@ MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/akanksha/.gradle/c
 MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/akanksha/.gradle/caches/transforms-3/a8cd70c7037d95fec268d8e6ca3c9edd/transformed/localbroadcastmanager-1.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.print:print:1.0.0] /Users/akanksha/.gradle/caches/transforms-3/1462cbf8edaff1e7b3eb0e28e737dc03/transformed/print-1.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.annotation:annotation-experimental:1.3.0] /Users/akanksha/.gradle/caches/transforms-3/f3deec2808a8057d12ee9b340194b9c7/transformed/annotation-experimental-1.3.0/AndroidManifest.xml:17:1-22:12
-INJECTED from /Users/akanksha/Desktop/3A04Project/carpoolapp/app/src/main/AndroidManifest.xml:2:1-59:12
-INJECTED from /Users/akanksha/Desktop/3A04Project/carpoolapp/app/src/main/AndroidManifest.xml:2:1-59:12
-INJECTED from /Users/akanksha/Desktop/3A04Project/carpoolapp/app/src/main/AndroidManifest.xml:2:1-59:12
+INJECTED from /Users/akanksha/Desktop/3A04Project/carpoolapp/app/src/main/AndroidManifest.xml:2:1-65:12
+INJECTED from /Users/akanksha/Desktop/3A04Project/carpoolapp/app/src/main/AndroidManifest.xml:2:1-65:12
+INJECTED from /Users/akanksha/Desktop/3A04Project/carpoolapp/app/src/main/AndroidManifest.xml:2:1-65:12
 	package
 		INJECTED from /Users/akanksha/Desktop/3A04Project/carpoolapp/app/src/main/AndroidManifest.xml
-		ADDED from /Users/akanksha/Desktop/3A04Project/carpoolapp/app/src/main/AndroidManifest.xml:2:1-59:12
+		ADDED from /Users/akanksha/Desktop/3A04Project/carpoolapp/app/src/main/AndroidManifest.xml:2:1-65:12
 		INJECTED from /Users/akanksha/Desktop/3A04Project/carpoolapp/app/src/main/AndroidManifest.xml
 	android:versionName
 		INJECTED from /Users/akanksha/Desktop/3A04Project/carpoolapp/app/src/main/AndroidManifest.xml
-		ADDED from /Users/akanksha/Desktop/3A04Project/carpoolapp/app/src/main/AndroidManifest.xml:2:1-59:12
+		ADDED from /Users/akanksha/Desktop/3A04Project/carpoolapp/app/src/main/AndroidManifest.xml:2:1-65:12
 		INJECTED from /Users/akanksha/Desktop/3A04Project/carpoolapp/app/src/main/AndroidManifest.xml
 	xmlns:tools
 		ADDED from /Users/akanksha/Desktop/3A04Project/carpoolapp/app/src/main/AndroidManifest.xml:3:5-51
 	android:versionCode
 		INJECTED from /Users/akanksha/Desktop/3A04Project/carpoolapp/app/src/main/AndroidManifest.xml
-		ADDED from /Users/akanksha/Desktop/3A04Project/carpoolapp/app/src/main/AndroidManifest.xml:2:1-59:12
+		ADDED from /Users/akanksha/Desktop/3A04Project/carpoolapp/app/src/main/AndroidManifest.xml:2:1-65:12
 		INJECTED from /Users/akanksha/Desktop/3A04Project/carpoolapp/app/src/main/AndroidManifest.xml
 	xmlns:android
 		ADDED from /Users/akanksha/Desktop/3A04Project/carpoolapp/app/src/main/AndroidManifest.xml:2:11-69
 application
-ADDED from /Users/akanksha/Desktop/3A04Project/carpoolapp/app/src/main/AndroidManifest.xml:5:5-57:19
+ADDED from /Users/akanksha/Desktop/3A04Project/carpoolapp/app/src/main/AndroidManifest.xml:5:5-63:19
 MERGED from [com.google.android.material:material:1.8.0] /Users/akanksha/.gradle/caches/transforms-3/7aedc10f2bd6fcb177921e1786c3d361/transformed/material-1.8.0/AndroidManifest.xml:24:5-20
 MERGED from [com.google.android.material:material:1.8.0] /Users/akanksha/.gradle/caches/transforms-3/7aedc10f2bd6fcb177921e1786c3d361/transformed/material-1.8.0/AndroidManifest.xml:24:5-20
 MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] /Users/akanksha/.gradle/caches/transforms-3/d209fa925e863fcfc8806660e106e97b/transformed/constraintlayout-2.1.4/AndroidManifest.xml:9:5-20
@@ -136,42 +136,54 @@ MERGED from [androidx.startup:startup-runtime:1.1.1] /Users/akanksha/.gradle/cac
 		ADDED from /Users/akanksha/Desktop/3A04Project/carpoolapp/app/src/main/AndroidManifest.xml:12:9-48
 	android:dataExtractionRules
 		ADDED from /Users/akanksha/Desktop/3A04Project/carpoolapp/app/src/main/AndroidManifest.xml:7:9-65
+activity#com.example.carpoolapp.RegistrationActivity
+ADDED from /Users/akanksha/Desktop/3A04Project/carpoolapp/app/src/main/AndroidManifest.xml:14:9-16:40
+	android:exported
+		ADDED from /Users/akanksha/Desktop/3A04Project/carpoolapp/app/src/main/AndroidManifest.xml:16:13-37
+	android:name
+		ADDED from /Users/akanksha/Desktop/3A04Project/carpoolapp/app/src/main/AndroidManifest.xml:15:13-49
+activity#com.example.carpoolapp.LoginActivity
+ADDED from /Users/akanksha/Desktop/3A04Project/carpoolapp/app/src/main/AndroidManifest.xml:17:9-19:40
+	android:exported
+		ADDED from /Users/akanksha/Desktop/3A04Project/carpoolapp/app/src/main/AndroidManifest.xml:19:13-37
+	android:name
+		ADDED from /Users/akanksha/Desktop/3A04Project/carpoolapp/app/src/main/AndroidManifest.xml:18:13-42
 activity#com.example.carpoolapp.StartingActivity
-ADDED from /Users/akanksha/Desktop/3A04Project/carpoolapp/app/src/main/AndroidManifest.xml:14:9-22:20
+ADDED from /Users/akanksha/Desktop/3A04Project/carpoolapp/app/src/main/AndroidManifest.xml:20:9-28:20
 	android:exported
-		ADDED from /Users/akanksha/Desktop/3A04Project/carpoolapp/app/src/main/AndroidManifest.xml:16:13-36
+		ADDED from /Users/akanksha/Desktop/3A04Project/carpoolapp/app/src/main/AndroidManifest.xml:22:13-36
 	android:name
-		ADDED from /Users/akanksha/Desktop/3A04Project/carpoolapp/app/src/main/AndroidManifest.xml:15:13-45
+		ADDED from /Users/akanksha/Desktop/3A04Project/carpoolapp/app/src/main/AndroidManifest.xml:21:13-45
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from /Users/akanksha/Desktop/3A04Project/carpoolapp/app/src/main/AndroidManifest.xml:17:13-21:29
+ADDED from /Users/akanksha/Desktop/3A04Project/carpoolapp/app/src/main/AndroidManifest.xml:23:13-27:29
 action#android.intent.action.MAIN
-ADDED from /Users/akanksha/Desktop/3A04Project/carpoolapp/app/src/main/AndroidManifest.xml:18:17-69
+ADDED from /Users/akanksha/Desktop/3A04Project/carpoolapp/app/src/main/AndroidManifest.xml:24:17-69
 	android:name
-		ADDED from /Users/akanksha/Desktop/3A04Project/carpoolapp/app/src/main/AndroidManifest.xml:18:25-66
+		ADDED from /Users/akanksha/Desktop/3A04Project/carpoolapp/app/src/main/AndroidManifest.xml:24:25-66
 category#android.intent.category.LAUNCHER
-ADDED from /Users/akanksha/Desktop/3A04Project/carpoolapp/app/src/main/AndroidManifest.xml:20:17-77
+ADDED from /Users/akanksha/Desktop/3A04Project/carpoolapp/app/src/main/AndroidManifest.xml:26:17-77
 	android:name
-		ADDED from /Users/akanksha/Desktop/3A04Project/carpoolapp/app/src/main/AndroidManifest.xml:20:27-74
+		ADDED from /Users/akanksha/Desktop/3A04Project/carpoolapp/app/src/main/AndroidManifest.xml:26:27-74
 meta-data#com.google.android.geo.API_KEY
-ADDED from /Users/akanksha/Desktop/3A04Project/carpoolapp/app/src/main/AndroidManifest.xml:34:9-36:44
+ADDED from /Users/akanksha/Desktop/3A04Project/carpoolapp/app/src/main/AndroidManifest.xml:40:9-42:44
 	android:value
-		ADDED from /Users/akanksha/Desktop/3A04Project/carpoolapp/app/src/main/AndroidManifest.xml:36:13-41
+		ADDED from /Users/akanksha/Desktop/3A04Project/carpoolapp/app/src/main/AndroidManifest.xml:42:13-41
 	android:name
-		ADDED from /Users/akanksha/Desktop/3A04Project/carpoolapp/app/src/main/AndroidManifest.xml:35:13-58
+		ADDED from /Users/akanksha/Desktop/3A04Project/carpoolapp/app/src/main/AndroidManifest.xml:41:13-58
 activity#com.example.carpoolapp.MainActivity
-ADDED from /Users/akanksha/Desktop/3A04Project/carpoolapp/app/src/main/AndroidManifest.xml:38:9-46:20
+ADDED from /Users/akanksha/Desktop/3A04Project/carpoolapp/app/src/main/AndroidManifest.xml:44:9-52:20
 	android:exported
-		ADDED from /Users/akanksha/Desktop/3A04Project/carpoolapp/app/src/main/AndroidManifest.xml:40:13-36
+		ADDED from /Users/akanksha/Desktop/3A04Project/carpoolapp/app/src/main/AndroidManifest.xml:46:13-36
 	android:name
-		ADDED from /Users/akanksha/Desktop/3A04Project/carpoolapp/app/src/main/AndroidManifest.xml:39:13-41
+		ADDED from /Users/akanksha/Desktop/3A04Project/carpoolapp/app/src/main/AndroidManifest.xml:45:13-41
 activity#com.example.carpoolapp.MapsActivity
-ADDED from /Users/akanksha/Desktop/3A04Project/carpoolapp/app/src/main/AndroidManifest.xml:47:9-56:20
+ADDED from /Users/akanksha/Desktop/3A04Project/carpoolapp/app/src/main/AndroidManifest.xml:53:9-62:20
 	android:label
-		ADDED from /Users/akanksha/Desktop/3A04Project/carpoolapp/app/src/main/AndroidManifest.xml:50:13-56
+		ADDED from /Users/akanksha/Desktop/3A04Project/carpoolapp/app/src/main/AndroidManifest.xml:56:13-56
 	android:exported
-		ADDED from /Users/akanksha/Desktop/3A04Project/carpoolapp/app/src/main/AndroidManifest.xml:49:13-36
+		ADDED from /Users/akanksha/Desktop/3A04Project/carpoolapp/app/src/main/AndroidManifest.xml:55:13-36
 	android:name
-		ADDED from /Users/akanksha/Desktop/3A04Project/carpoolapp/app/src/main/AndroidManifest.xml:48:13-41
+		ADDED from /Users/akanksha/Desktop/3A04Project/carpoolapp/app/src/main/AndroidManifest.xml:54:13-41
 uses-sdk
 INJECTED from /Users/akanksha/Desktop/3A04Project/carpoolapp/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from /Users/akanksha/Desktop/3A04Project/carpoolapp/app/src/main/AndroidManifest.xml

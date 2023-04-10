@@ -48,6 +48,10 @@
         "source": "/Users/akanksha/.gradle/daemon/7.5/com.example.carpoolapp-main-42:/layout/activity_starting.xml"
     },
     {
+        "merged": "/Users/akanksha/.gradle/daemon/7.5/com.example.carpoolapp-mergeDebugResources-39:/layout/fragment_starting.xml",
+        "source": "/Users/akanksha/.gradle/daemon/7.5/com.example.carpoolapp-main-42:/layout/fragment_starting.xml"
+    },
+    {
         "merged": "/Users/akanksha/.gradle/daemon/7.5/com.example.carpoolapp-mergeDebugResources-39:/layout/activity_maps.xml",
         "source": "/Users/akanksha/.gradle/daemon/7.5/com.example.carpoolapp-main-42:/layout/activity_maps.xml"
     },
@@ -60,8 +64,8 @@
         "source": "/Users/akanksha/.gradle/daemon/7.5/com.example.carpoolapp-main-42:/layout/fragment_offers_displaying.xml"
     },
     {
-        "merged": "com.example.carpoolapp-mergeDebugResources-39:/layout/fragment_starting.xml",
-        "source": "com.example.carpoolapp-main-42:/layout/fragment_starting.xml"
+        "merged": "com.example.carpoolapp-mergeDebugResources-39:/layout/activity_starting.xml",
+        "source": "com.example.carpoolapp-main-42:/layout/activity_starting.xml"
     },
     {
         "merged": "/Users/akanksha/.gradle/daemon/7.5/com.example.carpoolapp-mergeDebugResources-39:/layout/fragment_rating_form.xml",

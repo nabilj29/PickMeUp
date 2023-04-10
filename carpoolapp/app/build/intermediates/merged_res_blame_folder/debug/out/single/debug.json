@@ -124,6 +124,10 @@
         "source": "/Users/akanksha/.gradle/daemon/7.5/com.example.carpoolapp-main-42:/mipmap-xhdpi/ic_launcher.webp"
     },
     {
+        "merged": "/Users/akanksha/.gradle/daemon/7.5/com.example.carpoolapp-merged_res-40:/layout_fragment_starting.xml.flat",
+        "source": "/Users/akanksha/.gradle/daemon/7.5/com.example.carpoolapp-main-42:/layout/fragment_starting.xml"
+    },
+    {
         "merged": "/Users/akanksha/.gradle/daemon/7.5/com.example.carpoolapp-merged_res-40:/drawable_profile_page_icon.xml.flat",
         "source": "/Users/akanksha/.gradle/daemon/7.5/com.example.carpoolapp-main-42:/drawable/profile_page_icon.xml"
     },
@@ -164,7 +168,7 @@
         "source": "/Users/akanksha/.gradle/daemon/7.5/com.example.carpoolapp-main-42:/mipmap-anydpi-v26/ic_launcher.xml"
     },
     {
-        "merged": "com.example.carpoolapp-merged_res-40:/layout_fragment_starting.xml.flat",
-        "source": "com.example.carpoolapp-main-42:/layout/fragment_starting.xml"
+        "merged": "com.example.carpoolapp-merged_res-40:/layout_activity_starting.xml.flat",
+        "source": "com.example.carpoolapp-main-42:/layout/activity_starting.xml"
     }
 ]
