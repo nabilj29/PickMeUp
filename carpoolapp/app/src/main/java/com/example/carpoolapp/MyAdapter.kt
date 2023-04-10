@@ -22,12 +22,7 @@ class MyAdapter(private val userList : ArrayList<User>) : RecyclerView.Adapter<M
         val v = MyViewHolder(itemView)
         Log.d("MyAdapter", "onCreateViewHolder")
 
-//        val reqridebtn = itemView.findViewById<android.widget.Button>(R.id.requestridejoinButton)
-//        reqridebtn.setOnClickListener{
-//            val transaction: FragmentTransaction = requireFragmentManager().beginTransaction()
-//            transaction.replace(R.id.FragmentContainer, FinalTripDisplayFragment())
-//            transaction.commit()
-//        }
+
         return v
     }
 
@@ -36,6 +31,13 @@ class MyAdapter(private val userList : ArrayList<User>) : RecyclerView.Adapter<M
         holder.userName.text = user.userName
         holder.address.text = user.address
         Log.d("MyAdapter", "onBindViewHolder")
+//        holder.reqridebtn.setOnClickListener{
+//
+//
+//
+//        }
+
+
     }
 
     override fun getItemCount(): Int {
@@ -47,6 +49,7 @@ class MyAdapter(private val userList : ArrayList<User>) : RecyclerView.Adapter<M
     public class MyViewHolder(itemView : View) : RecyclerView.ViewHolder(itemView){
         val userName : TextView = itemView.findViewById(R.id.offeringusernamefield)
         val address : TextView = itemView.findViewById(R.id.offerstartinglocationfield)
+        var reqridebtn = itemView.findViewById<android.widget.Button>(R.id.requestridejoinButton)
         init {
             Log.d("MyAdapter", "MyViewHolder")
         }

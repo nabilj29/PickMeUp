@@ -18,6 +18,7 @@ import com.google.maps.android.PolyUtil
 import org.json.JSONObject
 import android.graphics.Color
 import android.util.Log
+import androidx.fragment.app.Fragment
 import com.example.carpoolapp.databinding.ActivityMapsBinding
 import com.google.android.gms.maps.model.LatLngBounds
 
@@ -38,6 +39,11 @@ class MapsActivity : AppCompatActivity(), OnMapReadyCallback {
             .findFragmentById(R.id.map) as SupportMapFragment
         mapFragment.getMapAsync(this)
 
+        var finishride = findViewById<android.widget.Button>(R.id.finishrideBtn);
+//        finishride.setOnClickListener{
+//            replaceFragment(RatingFormFragment())
+//
+//        }
 
     }
     override fun onMapReady(googleMap: GoogleMap) {
@@ -121,5 +127,12 @@ class MapsActivity : AppCompatActivity(), OnMapReadyCallback {
         }
 
 
+
+    }
+    private fun replaceFragment(fragment : Fragment){
+        val fragmentManager = supportFragmentManager
+        val fragmentTransaction = fragmentManager.beginTransaction()
+        fragmentTransaction.replace(R.id.FragmentContainer, fragment)
+        fragmentTransaction.commit()
     }
 }

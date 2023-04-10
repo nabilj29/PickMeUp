@@ -36,7 +36,6 @@ class SingleOfferFragment : Fragment() {
     ): View? {
         // Inflate the layout for this fragment
         var v = inflater.inflate(R.layout.single_offer_item, container, false)
-
         var reqridebtn = v.findViewById<android.widget.Button>(R.id.requestridejoinButton)
         reqridebtn.setOnClickListener{
             val transaction: FragmentTransaction = requireFragmentManager().beginTransaction()

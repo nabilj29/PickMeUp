@@ -34,7 +34,13 @@ class FinalTripDisplayFragment : Fragment() {
         savedInstanceState: Bundle?
     ): View? {
         // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.fragment_final_trip_display, container, false)
+        var v =  inflater.inflate(R.layout.fragment_final_trip_display, container, false)
+        var mvtomaps = v.findViewById<android.widget.Button>(R.id.finishrideBtn)
+        mvtomaps.setOnClickListener{
+            val intent = android.content.Intent(this@FinalTripDisplayFragment.requireContext(), MapsActivity()::class.java)
+            startActivity(intent)
+        }
+        return v
     }
 
     companion object {
