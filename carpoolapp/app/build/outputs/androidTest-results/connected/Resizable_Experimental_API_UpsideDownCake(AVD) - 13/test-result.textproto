@@ -1,0 +1,68 @@
+# 2023-04-10T05:02:20.242Z:
+test_suite_meta_data {
+  scheduled_test_case_count: 1
+}
+test_status: PASSED
+test_result {
+  test_case {
+    test_class: "ExampleInstrumentedTest"
+    test_package: "com.example.carpoolapp"
+    test_method: "useAppContext"
+    start_time {
+      seconds: 1681102939
+      nanos: 926000000
+    }
+    end_time {
+      seconds: 1681102939
+      nanos: 959000000
+    }
+  }
+  test_status: PASSED
+  output_artifact {
+    label {
+      label: "logcat"
+      namespace: "android"
+    }
+    source_path {
+      path: "C:\\Users\\nabil\\AndroidStudioProjects\\3A04Project\\carpoolapp\\app\\build\\outputs\\androidTest-results\\connected\\Resizable_Experimental_API_UpsideDownCake(AVD) - 13\\logcat-com.example.carpoolapp.ExampleInstrumentedTest-useAppContext.txt"
+    }
+  }
+  output_artifact {
+    label {
+      label: "device-info"
+      namespace: "android"
+    }
+    source_path {
+      path: "C:\\Users\\nabil\\AndroidStudioProjects\\3A04Project\\carpoolapp\\app\\build\\outputs\\androidTest-results\\connected\\Resizable_Experimental_API_UpsideDownCake(AVD) - 13\\device-info.pb"
+    }
+  }
+  output_artifact {
+    label {
+      label: "device-info.meminfo"
+      namespace: "android"
+    }
+    source_path {
+      path: "C:\\Users\\nabil\\AndroidStudioProjects\\3A04Project\\carpoolapp\\app\\build\\outputs\\androidTest-results\\connected\\Resizable_Experimental_API_UpsideDownCake(AVD) - 13\\meminfo"
+    }
+  }
+  output_artifact {
+    label {
+      label: "device-info.cpuinfo"
+      namespace: "android"
+    }
+    source_path {
+      path: "C:\\Users\\nabil\\AndroidStudioProjects\\3A04Project\\carpoolapp\\app\\build\\outputs\\androidTest-results\\connected\\Resizable_Experimental_API_UpsideDownCake(AVD) - 13\\cpuinfo"
+    }
+  }
+}
+output_artifact {
+  label {
+    label: "test-results.log"
+    namespace: "com.google.testing.platform.runtime.android.driver.AndroidInstrumentationDriver"
+  }
+  source_path {
+    path: "C:\\Users\\nabil\\AndroidStudioProjects\\3A04Project\\carpoolapp\\app\\build\\outputs\\androidTest-results\\connected\\Resizable_Experimental_API_UpsideDownCake(AVD) - 13\\testlog\\test-results.log"
+  }
+  type: TEST_DATA
+  mime_type: "text/plain"
+}

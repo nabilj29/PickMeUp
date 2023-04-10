@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "com.example.carpoolapp-mergeDebugResources-38:/values-w320dp-land-v13/values-w320dp-land-v13.xml",
+            "outputFile": "com.example.carpoolapp-mergeDebugResources-39:/values-w320dp-land-v13/values-w320dp-land-v13.xml",
             "map": [
                 {
-                    "source": "/Users/akanksha/.gradle/caches/transforms-3/7aedc10f2bd6fcb177921e1786c3d361/transformed/material-1.8.0/res/values-w320dp-land-v13/values-w320dp-land-v13.xml",
+                    "source": "C:\\Users\\nabil\\.gradle\\caches\\transforms-3\\7aedc10f2bd6fcb177921e1786c3d361\\transformed\\material-1.8.0\\res\\values-w320dp-land-v13\\values-w320dp-land-v13.xml",
                     "from": {
                         "startLines": "2,3",
                         "startColumns": "4,4",

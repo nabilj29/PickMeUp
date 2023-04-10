@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "com.example.carpoolapp-mergeDebugResources-38:/values-watch-v20/values-watch-v20.xml",
+            "outputFile": "com.example.carpoolapp-mergeDebugResources-39:/values-watch-v20/values-watch-v20.xml",
             "map": [
                 {
-                    "source": "/Users/akanksha/.gradle/caches/transforms-3/d5ec653838f23bfcc2d087ae15f0c1a5/transformed/appcompat-1.6.1/res/values-watch-v20/values-watch-v20.xml",
+                    "source": "C:\\Users\\nabil\\.gradle\\caches\\transforms-3\\d5ec653838f23bfcc2d087ae15f0c1a5\\transformed\\appcompat-1.6.1\\res\\values-watch-v20\\values-watch-v20.xml",
                     "from": {
                         "startLines": "2,5,8",
                         "startColumns": "4,4,4",

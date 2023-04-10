@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".OfferRideDetailsFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+
+
+    <TextView
+        android:id="@+id/Titletext"
+        android:layout_width="210dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:layout_marginBottom="390px"
+        android:text="Create Offer for Taxi Ride"
+        android:textSize="30dp"
+        android:textColor="@color/purple_700"/>
+
+    <EditText
+        android:id="@+id/enterStartingLocation"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="14"
+        android:layout_gravity="center"
+        android:layout_marginBottom="200px"
+        android:inputType="textPersonName"
+        android:hint=" Enter Starting Address" />
+
+    <EditText
+        android:id="@+id/enterDestinationLocation"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="14"
+        android:layout_gravity="center"
+        android:layout_marginBottom="50px"
+        android:inputType="textPersonName"
+        android:hint=" Enter Destination Address" />
+
+    <EditText
+        android:id="@+id/enterMaxRiders"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="14"
+        android:layout_gravity="center"
+        android:layout_marginTop="100px"
+        android:inputType="textPersonName"
+        android:hint=" Enter Max Riders (ex. 3)" />
+
+
+
+    <Button
+        android:id="@+id/submitOfferbutton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="250px"
+        android:text="Create Offer with these details" />
+
+
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="110dp"
+        android:layout_height="94dp"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:layout_marginBottom="650px"
+        android:src="@drawable/offer_ride_icon" />
+
+</FrameLayout>

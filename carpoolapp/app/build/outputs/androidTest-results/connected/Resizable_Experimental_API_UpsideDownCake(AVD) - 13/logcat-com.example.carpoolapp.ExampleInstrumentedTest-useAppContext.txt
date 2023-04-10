@@ -1,0 +1,2 @@
+04-10 01:02:17.967  9025  9056 I TestRunner: started: useAppContext(com.example.carpoolapp.ExampleInstrumentedTest)
+04-10 01:02:17.971  9025  9056 I TestRunner: finished: useAppContext(com.example.carpoolapp.ExampleInstrumentedTest)
