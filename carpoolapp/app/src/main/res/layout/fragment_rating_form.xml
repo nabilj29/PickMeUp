@@ -62,29 +62,17 @@
         app:layout_constraintVertical_bias="0.495" />
 
     <Button
-        android:id="@+id/skipratingButton"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="40dp"
-        android:layout_marginBottom="24dp"
-        android:backgroundTint="@color/purple_700"
-        android:text="Skip"
-        android:textColor="@color/orange_tint"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/recyclerView" />
-
-    <Button
         android:id="@+id/confirmratingButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginEnd="40dp"
+        android:layout_marginEnd="32dp"
         android:layout_marginBottom="24dp"
         android:backgroundTint="@color/purple_700"
         android:text="Confirm"
         android:textColor="@color/orange_tint"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/recyclerView" />
+        app:layout_constraintTop_toBottomOf="@+id/recyclerView"
+        app:layout_constraintVertical_bias="0.636" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

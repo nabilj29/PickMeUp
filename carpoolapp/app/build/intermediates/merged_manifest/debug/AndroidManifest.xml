@@ -41,6 +41,9 @@
         android:testOnly="true"
         android:theme="@style/Theme.Carpoolapp" >
         <activity
+            android:name="com.example.carpoolapp.RatingFormActivity"
+            android:exported="false" />
+        <activity
             android:name="com.example.carpoolapp.RegistrationActivity"
             android:exported="false" />
         <activity

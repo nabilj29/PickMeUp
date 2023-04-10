@@ -39,11 +39,11 @@ class MapsActivity : AppCompatActivity(), OnMapReadyCallback {
             .findFragmentById(R.id.map) as SupportMapFragment
         mapFragment.getMapAsync(this)
 
-        var finishride = findViewById<android.widget.Button>(R.id.finishrideBtn);
-//        finishride.setOnClickListener{
-//            replaceFragment(RatingFormFragment())
-//
-//        }
+        var finishride  = findViewById<android.widget.Button>(R.id.finishrideBtn);
+        finishride.setOnClickListener{
+            val intent = android.content.Intent(this@MapsActivity, RatingFormActivity()::class.java)
+            startActivity(intent)
+        }
 
     }
     override fun onMapReady(googleMap: GoogleMap) {
