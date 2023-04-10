@@ -4,7 +4,7 @@
             "outputFile": "com.example.carpoolapp-mergeDebugResources-39:/values-v25/values-v25.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\nabil\\.gradle\\caches\\transforms-3\\d5ec653838f23bfcc2d087ae15f0c1a5\\transformed\\appcompat-1.6.1\\res\\values-v25\\values-v25.xml",
+                    "source": "/Users/akanksha/.gradle/caches/transforms-3/d5ec653838f23bfcc2d087ae15f0c1a5/transformed/appcompat-1.6.1/res/values-v25/values-v25.xml",
                     "from": {
                         "startLines": "2,3,4,6",
                         "startColumns": "4,4,4,4",

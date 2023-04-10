@@ -21,16 +21,16 @@
 
     <androidx.recyclerview.widget.RecyclerView
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:layout_marginTop="250px"/>
+        android:layout_height="476dp"
+        android:layout_marginTop="250px" />
 
     <Button
         android:id="@+id/finishrideBtn"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="See Final Route"
         android:layout_gravity="center"
-        android:layout_marginBottom="15dp"/>
+        android:layout_marginTop="250dp"
+        android:text="See Final Route" />
 
 
 </FrameLayout>

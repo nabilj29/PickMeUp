@@ -20,17 +20,18 @@
         android:textSize="30dp" />
 
     <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/requestrecyclerView"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:layout_marginTop="250px"/>
+        android:layout_height="406dp"
+        android:layout_marginTop="250px" />
 
     <Button
         android:id="@+id/confirmrideButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Confirm this TaxiPool Ride"
         android:layout_gravity="center"
-        android:layout_marginBottom="15dp"/>
+        android:layout_marginTop="200dp"
+        android:text="Confirm this TaxiPool Ride" />
 
 
 </FrameLayout>

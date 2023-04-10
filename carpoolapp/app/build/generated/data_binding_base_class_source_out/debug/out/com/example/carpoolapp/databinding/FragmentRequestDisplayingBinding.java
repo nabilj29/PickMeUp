@@ -9,6 +9,7 @@ import android.widget.FrameLayout;
 import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
+import androidx.recyclerview.widget.RecyclerView;
 import androidx.viewbinding.ViewBinding;
 import androidx.viewbinding.ViewBindings;
 import com.example.carpoolapp.R;
@@ -26,11 +27,16 @@ public final class FragmentRequestDisplayingBinding implements ViewBinding {
   @NonNull
   public final Button confirmrideButton;
 
+  @NonNull
+  public final RecyclerView requestrecyclerView;
+
   private FragmentRequestDisplayingBinding(@NonNull FrameLayout rootView,
-      @NonNull TextView RequestDisplayingTitle, @NonNull Button confirmrideButton) {
+      @NonNull TextView RequestDisplayingTitle, @NonNull Button confirmrideButton,
+      @NonNull RecyclerView requestrecyclerView) {
     this.rootView = rootView;
     this.RequestDisplayingTitle = RequestDisplayingTitle;
     this.confirmrideButton = confirmrideButton;
+    this.requestrecyclerView = requestrecyclerView;
   }
 
   @Override
@@ -72,8 +78,14 @@ public final class FragmentRequestDisplayingBinding implements ViewBinding {
         break missingId;
       }
 
+      id = R.id.requestrecyclerView;
+      RecyclerView requestrecyclerView = ViewBindings.findChildViewById(rootView, id);
+      if (requestrecyclerView == null) {
+        break missingId;
+      }
+
       return new FragmentRequestDisplayingBinding((FrameLayout) rootView, RequestDisplayingTitle,
-          confirmrideButton);
+          confirmrideButton, requestrecyclerView);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

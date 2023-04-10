@@ -6,6 +6,7 @@ import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import androidx.fragment.app.FragmentTransaction
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
 import com.google.firebase.database.DataSnapshot
@@ -37,9 +38,9 @@ class RequestDisplayingFragment : Fragment() {
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View? {
-        val rootView = inflater.inflate(R.layout.fragment_offers_displaying, container, false)
+        val rootView = inflater.inflate(R.layout.fragment_request_displaying, container, false)
         Log.d(TAG, "Fragment view inflated successfully")
-        recyclerView = rootView.findViewById(R.id.recyclerView)
+        recyclerView = rootView.findViewById(R.id.requestrecyclerView)
         recyclerView.layoutManager = LinearLayoutManager(activity)
         recyclerView.setHasFixedSize(true)
 
@@ -69,6 +70,14 @@ class RequestDisplayingFragment : Fragment() {
                 Log.e(TAG, "Error fetching requests", error.toException())
             }
         })
+
+// CHECK IF THIS TRANSITION WORKS !!!!
+        var confirmridebtn = rootView.findViewById<android.widget.Button>(R.id.confirmrideButton)
+        confirmridebtn.setOnClickListener{
+            val transaction: FragmentTransaction = getParentFragmentManager().beginTransaction()
+            transaction.replace(R.id.FragmentContainer, FinalTripDisplayFragment())
+            transaction.commit()
+        }
 
         return rootView
     }

@@ -5,15 +5,30 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import android.widget.TextView
+import androidx.fragment.app.FragmentTransaction
+import androidx.fragment.app.FragmentManager
 import androidx.recyclerview.widget.RecyclerView
 import org.w3c.dom.Text
+import androidx.appcompat.app.AppCompatActivity
+import android.os.Bundle
+
+import com.example.carpoolapp.databinding.ActivityMainBinding
+import androidx.fragment.app.Fragment
 
 class MyAdapter(private val userList : ArrayList<User>) : RecyclerView.Adapter<MyAdapter.MyViewHolder>(){
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): MyAdapter.MyViewHolder {
 
         val itemView = LayoutInflater.from(parent.context).inflate(R.layout.single_offer_item, parent, false)
+        val v = MyViewHolder(itemView)
         Log.d("MyAdapter", "onCreateViewHolder")
-        return MyViewHolder(itemView)
+
+//        val reqridebtn = itemView.findViewById<android.widget.Button>(R.id.requestridejoinButton)
+//        reqridebtn.setOnClickListener{
+//            val transaction: FragmentTransaction = requireFragmentManager().beginTransaction()
+//            transaction.replace(R.id.FragmentContainer, FinalTripDisplayFragment())
+//            transaction.commit()
+//        }
+        return v
     }
 
     override fun onBindViewHolder(holder: MyAdapter.MyViewHolder, position: Int) {
