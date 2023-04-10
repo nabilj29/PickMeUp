@@ -6,251 +6,267 @@
 6
 7    <uses-sdk
 8        android:minSdkVersion="24"
-8-->C:\Users\nabil\3A04Project\carpoolapp\app\src\main\AndroidManifest.xml
+8-->/Users/akanksha/Desktop/3A04Project/carpoolapp/app/src/main/AndroidManifest.xml
 9        android:targetSdkVersion="33" />
-9-->C:\Users\nabil\3A04Project\carpoolapp\app\src\main\AndroidManifest.xml
+9-->/Users/akanksha/Desktop/3A04Project/carpoolapp/app/src/main/AndroidManifest.xml
 10
 11    <!-- Include required permissions for Google Maps API to run. -->
 12    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
-12-->[com.google.android.gms:play-services-maps:18.1.0] C:\Users\nabil\.gradle\caches\transforms-3\37b4e3659ba88534be39afd65ce7fd43\transformed\play-services-maps-18.1.0\AndroidManifest.xml:23:5-79
-12-->[com.google.android.gms:play-services-maps:18.1.0] C:\Users\nabil\.gradle\caches\transforms-3\37b4e3659ba88534be39afd65ce7fd43\transformed\play-services-maps-18.1.0\AndroidManifest.xml:23:22-76
+12-->[com.google.android.gms:play-services-maps:18.1.0] /Users/akanksha/.gradle/caches/transforms-3/37b4e3659ba88534be39afd65ce7fd43/transformed/play-services-maps-18.1.0/AndroidManifest.xml:23:5-79
+12-->[com.google.android.gms:play-services-maps:18.1.0] /Users/akanksha/.gradle/caches/transforms-3/37b4e3659ba88534be39afd65ce7fd43/transformed/play-services-maps-18.1.0/AndroidManifest.xml:23:22-76
 13    <uses-permission android:name="android.permission.INTERNET" />
-13-->[com.google.android.gms:play-services-maps:18.1.0] C:\Users\nabil\.gradle\caches\transforms-3\37b4e3659ba88534be39afd65ce7fd43\transformed\play-services-maps-18.1.0\AndroidManifest.xml:24:5-67
-13-->[com.google.android.gms:play-services-maps:18.1.0] C:\Users\nabil\.gradle\caches\transforms-3\37b4e3659ba88534be39afd65ce7fd43\transformed\play-services-maps-18.1.0\AndroidManifest.xml:24:22-64
+13-->[com.google.android.gms:play-services-maps:18.1.0] /Users/akanksha/.gradle/caches/transforms-3/37b4e3659ba88534be39afd65ce7fd43/transformed/play-services-maps-18.1.0/AndroidManifest.xml:24:5-67
+13-->[com.google.android.gms:play-services-maps:18.1.0] /Users/akanksha/.gradle/caches/transforms-3/37b4e3659ba88534be39afd65ce7fd43/transformed/play-services-maps-18.1.0/AndroidManifest.xml:24:22-64
 14
 15    <uses-feature
-15-->[com.google.android.gms:play-services-maps:18.1.0] C:\Users\nabil\.gradle\caches\transforms-3\37b4e3659ba88534be39afd65ce7fd43\transformed\play-services-maps-18.1.0\AndroidManifest.xml:26:5-28:35
+15-->[com.google.android.gms:play-services-maps:18.1.0] /Users/akanksha/.gradle/caches/transforms-3/37b4e3659ba88534be39afd65ce7fd43/transformed/play-services-maps-18.1.0/AndroidManifest.xml:26:5-28:35
 16        android:glEsVersion="0x00020000"
-16-->[com.google.android.gms:play-services-maps:18.1.0] C:\Users\nabil\.gradle\caches\transforms-3\37b4e3659ba88534be39afd65ce7fd43\transformed\play-services-maps-18.1.0\AndroidManifest.xml:27:9-41
+16-->[com.google.android.gms:play-services-maps:18.1.0] /Users/akanksha/.gradle/caches/transforms-3/37b4e3659ba88534be39afd65ce7fd43/transformed/play-services-maps-18.1.0/AndroidManifest.xml:27:9-41
 17        android:required="true" />
-17-->[com.google.android.gms:play-services-maps:18.1.0] C:\Users\nabil\.gradle\caches\transforms-3\37b4e3659ba88534be39afd65ce7fd43\transformed\play-services-maps-18.1.0\AndroidManifest.xml:28:9-32
+17-->[com.google.android.gms:play-services-maps:18.1.0] /Users/akanksha/.gradle/caches/transforms-3/37b4e3659ba88534be39afd65ce7fd43/transformed/play-services-maps-18.1.0/AndroidManifest.xml:28:9-32
 18
 19    <queries>
-19-->[com.google.android.gms:play-services-maps:18.1.0] C:\Users\nabil\.gradle\caches\transforms-3\37b4e3659ba88534be39afd65ce7fd43\transformed\play-services-maps-18.1.0\AndroidManifest.xml:30:5-34:15
+19-->[com.google.android.gms:play-services-maps:18.1.0] /Users/akanksha/.gradle/caches/transforms-3/37b4e3659ba88534be39afd65ce7fd43/transformed/play-services-maps-18.1.0/AndroidManifest.xml:30:5-34:15
 20
 21        <!-- Needs to be explicitly declared on Android R+ -->
 22        <package android:name="com.google.android.apps.maps" />
-22-->[com.google.android.gms:play-services-maps:18.1.0] C:\Users\nabil\.gradle\caches\transforms-3\37b4e3659ba88534be39afd65ce7fd43\transformed\play-services-maps-18.1.0\AndroidManifest.xml:33:9-64
-22-->[com.google.android.gms:play-services-maps:18.1.0] C:\Users\nabil\.gradle\caches\transforms-3\37b4e3659ba88534be39afd65ce7fd43\transformed\play-services-maps-18.1.0\AndroidManifest.xml:33:18-61
+22-->[com.google.android.gms:play-services-maps:18.1.0] /Users/akanksha/.gradle/caches/transforms-3/37b4e3659ba88534be39afd65ce7fd43/transformed/play-services-maps-18.1.0/AndroidManifest.xml:33:9-64
+22-->[com.google.android.gms:play-services-maps:18.1.0] /Users/akanksha/.gradle/caches/transforms-3/37b4e3659ba88534be39afd65ce7fd43/transformed/play-services-maps-18.1.0/AndroidManifest.xml:33:18-61
 23    </queries>
 24
 25    <permission
-25-->[androidx.core:core:1.9.0] C:\Users\nabil\.gradle\caches\transforms-3\b865b057b323edf6f9ec3086703bdab8\transformed\core-1.9.0\AndroidManifest.xml:22:5-24:47
+25-->[androidx.core:core:1.9.0] /Users/akanksha/.gradle/caches/transforms-3/b865b057b323edf6f9ec3086703bdab8/transformed/core-1.9.0/AndroidManifest.xml:22:5-24:47
 26        android:name="com.example.carpoolapp.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
-26-->[androidx.core:core:1.9.0] C:\Users\nabil\.gradle\caches\transforms-3\b865b057b323edf6f9ec3086703bdab8\transformed\core-1.9.0\AndroidManifest.xml:23:9-81
+26-->[androidx.core:core:1.9.0] /Users/akanksha/.gradle/caches/transforms-3/b865b057b323edf6f9ec3086703bdab8/transformed/core-1.9.0/AndroidManifest.xml:23:9-81
 27        android:protectionLevel="signature" />
-27-->[androidx.core:core:1.9.0] C:\Users\nabil\.gradle\caches\transforms-3\b865b057b323edf6f9ec3086703bdab8\transformed\core-1.9.0\AndroidManifest.xml:24:9-44
+27-->[androidx.core:core:1.9.0] /Users/akanksha/.gradle/caches/transforms-3/b865b057b323edf6f9ec3086703bdab8/transformed/core-1.9.0/AndroidManifest.xml:24:9-44
 28
 29    <uses-permission android:name="com.example.carpoolapp.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
-29-->[androidx.core:core:1.9.0] C:\Users\nabil\.gradle\caches\transforms-3\b865b057b323edf6f9ec3086703bdab8\transformed\core-1.9.0\AndroidManifest.xml:26:5-97
-29-->[androidx.core:core:1.9.0] C:\Users\nabil\.gradle\caches\transforms-3\b865b057b323edf6f9ec3086703bdab8\transformed\core-1.9.0\AndroidManifest.xml:26:22-94
+29-->[androidx.core:core:1.9.0] /Users/akanksha/.gradle/caches/transforms-3/b865b057b323edf6f9ec3086703bdab8/transformed/core-1.9.0/AndroidManifest.xml:26:5-97
+29-->[androidx.core:core:1.9.0] /Users/akanksha/.gradle/caches/transforms-3/b865b057b323edf6f9ec3086703bdab8/transformed/core-1.9.0/AndroidManifest.xml:26:22-94
 30
 31    <application
-31-->C:\Users\nabil\3A04Project\carpoolapp\app\src\main\AndroidManifest.xml:5:5-49:19
+31-->/Users/akanksha/Desktop/3A04Project/carpoolapp/app/src/main/AndroidManifest.xml:5:5-57:19
 32        android:allowBackup="true"
-32-->C:\Users\nabil\3A04Project\carpoolapp\app\src\main\AndroidManifest.xml:6:9-35
+32-->/Users/akanksha/Desktop/3A04Project/carpoolapp/app/src/main/AndroidManifest.xml:6:9-35
 33        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
-33-->[androidx.core:core:1.9.0] C:\Users\nabil\.gradle\caches\transforms-3\b865b057b323edf6f9ec3086703bdab8\transformed\core-1.9.0\AndroidManifest.xml:28:18-86
+33-->[androidx.core:core:1.9.0] /Users/akanksha/.gradle/caches/transforms-3/b865b057b323edf6f9ec3086703bdab8/transformed/core-1.9.0/AndroidManifest.xml:28:18-86
 34        android:dataExtractionRules="@xml/data_extraction_rules"
-34-->C:\Users\nabil\3A04Project\carpoolapp\app\src\main\AndroidManifest.xml:7:9-65
+34-->/Users/akanksha/Desktop/3A04Project/carpoolapp/app/src/main/AndroidManifest.xml:7:9-65
 35        android:debuggable="true"
 36        android:extractNativeLibs="false"
 37        android:fullBackupContent="@xml/backup_rules"
-37-->C:\Users\nabil\3A04Project\carpoolapp\app\src\main\AndroidManifest.xml:8:9-54
+37-->/Users/akanksha/Desktop/3A04Project/carpoolapp/app/src/main/AndroidManifest.xml:8:9-54
 38        android:icon="@mipmap/ic_launcher"
-38-->C:\Users\nabil\3A04Project\carpoolapp\app\src\main\AndroidManifest.xml:9:9-43
+38-->/Users/akanksha/Desktop/3A04Project/carpoolapp/app/src/main/AndroidManifest.xml:9:9-43
 39        android:label="@string/app_name"
-39-->C:\Users\nabil\3A04Project\carpoolapp\app\src\main\AndroidManifest.xml:10:9-41
+39-->/Users/akanksha/Desktop/3A04Project/carpoolapp/app/src/main/AndroidManifest.xml:10:9-41
 40        android:supportsRtl="true"
-40-->C:\Users\nabil\3A04Project\carpoolapp\app\src\main\AndroidManifest.xml:11:9-35
+40-->/Users/akanksha/Desktop/3A04Project/carpoolapp/app/src/main/AndroidManifest.xml:11:9-35
 41        android:testOnly="true"
 42        android:theme="@style/Theme.Carpoolapp" >
-42-->C:\Users\nabil\3A04Project\carpoolapp\app\src\main\AndroidManifest.xml:12:9-48
-43
-44        <!--
-45             TODO: Before you run your application, you need a Google Maps API key.
-46
-47             To get one, follow the directions here:
+42-->/Users/akanksha/Desktop/3A04Project/carpoolapp/app/src/main/AndroidManifest.xml:12:9-48
+43        <activity
+43-->/Users/akanksha/Desktop/3A04Project/carpoolapp/app/src/main/AndroidManifest.xml:14:9-22:20
+44            android:name="com.example.carpoolapp.StartingActivity"
+44-->/Users/akanksha/Desktop/3A04Project/carpoolapp/app/src/main/AndroidManifest.xml:15:13-45
+45            android:exported="true" >
+45-->/Users/akanksha/Desktop/3A04Project/carpoolapp/app/src/main/AndroidManifest.xml:16:13-36
+46            <intent-filter>
+46-->/Users/akanksha/Desktop/3A04Project/carpoolapp/app/src/main/AndroidManifest.xml:17:13-21:29
+47                <action android:name="android.intent.action.MAIN" />
+47-->/Users/akanksha/Desktop/3A04Project/carpoolapp/app/src/main/AndroidManifest.xml:18:17-69
+47-->/Users/akanksha/Desktop/3A04Project/carpoolapp/app/src/main/AndroidManifest.xml:18:25-66
 48
-49                https://developers.google.com/maps/documentation/android-sdk/get-api-key
-50
-51             Once you have your API key (it starts with "AIza"), define a new property in your
-52             project's local.properties file (e.g. MAPS_API_KEY=Aiza...), and replace the
-53             "YOUR_API_KEY" string in this file with "${MAPS_API_KEY}".
-54        -->
-55        <meta-data
-55-->C:\Users\nabil\3A04Project\carpoolapp\app\src\main\AndroidManifest.xml:26:9-28:44
-56            android:name="com.google.android.geo.API_KEY"
-56-->C:\Users\nabil\3A04Project\carpoolapp\app\src\main\AndroidManifest.xml:27:13-58
-57            android:value="YOUR_API_KEY" />
-57-->C:\Users\nabil\3A04Project\carpoolapp\app\src\main\AndroidManifest.xml:28:13-41
+49                <category android:name="android.intent.category.LAUNCHER" />
+49-->/Users/akanksha/Desktop/3A04Project/carpoolapp/app/src/main/AndroidManifest.xml:20:17-77
+49-->/Users/akanksha/Desktop/3A04Project/carpoolapp/app/src/main/AndroidManifest.xml:20:27-74
+50            </intent-filter>
+51        </activity>
+52        <!--
+53             TODO: Before you run your application, you need a Google Maps API key.
+54
+55             To get one, follow the directions here:
+56
+57                https://developers.google.com/maps/documentation/android-sdk/get-api-key
 58
-59        <activity
-59-->C:\Users\nabil\3A04Project\carpoolapp\app\src\main\AndroidManifest.xml:30:9-38:20
-60            android:name="com.example.carpoolapp.MainActivity"
-60-->C:\Users\nabil\3A04Project\carpoolapp\app\src\main\AndroidManifest.xml:31:13-41
-61            android:exported="true" >
-61-->C:\Users\nabil\3A04Project\carpoolapp\app\src\main\AndroidManifest.xml:32:13-36
-62            <intent-filter>
-62-->C:\Users\nabil\3A04Project\carpoolapp\app\src\main\AndroidManifest.xml:33:13-37:29
-63                <action android:name="android.intent.action.MAIN" />
-63-->C:\Users\nabil\3A04Project\carpoolapp\app\src\main\AndroidManifest.xml:34:17-69
-63-->C:\Users\nabil\3A04Project\carpoolapp\app\src\main\AndroidManifest.xml:34:25-66
-64
-65                <category android:name="android.intent.category.LAUNCHER" />
-65-->C:\Users\nabil\3A04Project\carpoolapp\app\src\main\AndroidManifest.xml:36:17-77
-65-->C:\Users\nabil\3A04Project\carpoolapp\app\src\main\AndroidManifest.xml:36:27-74
-66            </intent-filter>
-67        </activity>
-68        <activity
-68-->C:\Users\nabil\3A04Project\carpoolapp\app\src\main\AndroidManifest.xml:39:9-48:20
-69            android:name="com.example.carpoolapp.MapsActivity"
-69-->C:\Users\nabil\3A04Project\carpoolapp\app\src\main\AndroidManifest.xml:40:13-41
-70            android:exported="true"
-70-->C:\Users\nabil\3A04Project\carpoolapp\app\src\main\AndroidManifest.xml:41:13-36
-71            android:label="@string/title_activity_maps" >
-71-->C:\Users\nabil\3A04Project\carpoolapp\app\src\main\AndroidManifest.xml:42:13-56
-72            <intent-filter>
-72-->C:\Users\nabil\3A04Project\carpoolapp\app\src\main\AndroidManifest.xml:33:13-37:29
-73                <action android:name="android.intent.action.MAIN" />
-73-->C:\Users\nabil\3A04Project\carpoolapp\app\src\main\AndroidManifest.xml:34:17-69
-73-->C:\Users\nabil\3A04Project\carpoolapp\app\src\main\AndroidManifest.xml:34:25-66
-74
-75                <category android:name="android.intent.category.LAUNCHER" />
-75-->C:\Users\nabil\3A04Project\carpoolapp\app\src\main\AndroidManifest.xml:36:17-77
-75-->C:\Users\nabil\3A04Project\carpoolapp\app\src\main\AndroidManifest.xml:36:27-74
-76            </intent-filter>
-77        </activity>
-78        <!-- Needs to be explicitly declared on P+ -->
-79        <uses-library
-79-->[com.google.android.gms:play-services-maps:18.1.0] C:\Users\nabil\.gradle\caches\transforms-3\37b4e3659ba88534be39afd65ce7fd43\transformed\play-services-maps-18.1.0\AndroidManifest.xml:39:9-41:40
-80            android:name="org.apache.http.legacy"
-80-->[com.google.android.gms:play-services-maps:18.1.0] C:\Users\nabil\.gradle\caches\transforms-3\37b4e3659ba88534be39afd65ce7fd43\transformed\play-services-maps-18.1.0\AndroidManifest.xml:40:13-50
-81            android:required="false" />
-81-->[com.google.android.gms:play-services-maps:18.1.0] C:\Users\nabil\.gradle\caches\transforms-3\37b4e3659ba88534be39afd65ce7fd43\transformed\play-services-maps-18.1.0\AndroidManifest.xml:41:13-37
+59             Once you have your API key (it starts with "AIza"), define a new property in your
+60             project's local.properties file (e.g. MAPS_API_KEY=Aiza...), and replace the
+61             "YOUR_API_KEY" string in this file with "${MAPS_API_KEY}".
+62        -->
+63        <meta-data
+63-->/Users/akanksha/Desktop/3A04Project/carpoolapp/app/src/main/AndroidManifest.xml:34:9-36:44
+64            android:name="com.google.android.geo.API_KEY"
+64-->/Users/akanksha/Desktop/3A04Project/carpoolapp/app/src/main/AndroidManifest.xml:35:13-58
+65            android:value="YOUR_API_KEY" />
+65-->/Users/akanksha/Desktop/3A04Project/carpoolapp/app/src/main/AndroidManifest.xml:36:13-41
+66
+67        <activity
+67-->/Users/akanksha/Desktop/3A04Project/carpoolapp/app/src/main/AndroidManifest.xml:38:9-46:20
+68            android:name="com.example.carpoolapp.MainActivity"
+68-->/Users/akanksha/Desktop/3A04Project/carpoolapp/app/src/main/AndroidManifest.xml:39:13-41
+69            android:exported="true" >
+69-->/Users/akanksha/Desktop/3A04Project/carpoolapp/app/src/main/AndroidManifest.xml:40:13-36
+70            <intent-filter>
+70-->/Users/akanksha/Desktop/3A04Project/carpoolapp/app/src/main/AndroidManifest.xml:17:13-21:29
+71                <action android:name="android.intent.action.MAIN" />
+71-->/Users/akanksha/Desktop/3A04Project/carpoolapp/app/src/main/AndroidManifest.xml:18:17-69
+71-->/Users/akanksha/Desktop/3A04Project/carpoolapp/app/src/main/AndroidManifest.xml:18:25-66
+72
+73                <category android:name="android.intent.category.LAUNCHER" />
+73-->/Users/akanksha/Desktop/3A04Project/carpoolapp/app/src/main/AndroidManifest.xml:20:17-77
+73-->/Users/akanksha/Desktop/3A04Project/carpoolapp/app/src/main/AndroidManifest.xml:20:27-74
+74            </intent-filter>
+75        </activity>
+76        <activity
+76-->/Users/akanksha/Desktop/3A04Project/carpoolapp/app/src/main/AndroidManifest.xml:47:9-56:20
+77            android:name="com.example.carpoolapp.MapsActivity"
+77-->/Users/akanksha/Desktop/3A04Project/carpoolapp/app/src/main/AndroidManifest.xml:48:13-41
+78            android:exported="true"
+78-->/Users/akanksha/Desktop/3A04Project/carpoolapp/app/src/main/AndroidManifest.xml:49:13-36
+79            android:label="@string/title_activity_maps" >
+79-->/Users/akanksha/Desktop/3A04Project/carpoolapp/app/src/main/AndroidManifest.xml:50:13-56
+80            <intent-filter>
+80-->/Users/akanksha/Desktop/3A04Project/carpoolapp/app/src/main/AndroidManifest.xml:17:13-21:29
+81                <action android:name="android.intent.action.MAIN" />
+81-->/Users/akanksha/Desktop/3A04Project/carpoolapp/app/src/main/AndroidManifest.xml:18:17-69
+81-->/Users/akanksha/Desktop/3A04Project/carpoolapp/app/src/main/AndroidManifest.xml:18:25-66
 82
-83        <service
-83-->[com.google.firebase:firebase-database-ktx:20.1.0] C:\Users\nabil\.gradle\caches\transforms-3\630f1bce7bfac4cd86f1b705ca81a442\transformed\firebase-database-ktx-20.1.0\AndroidManifest.xml:11:9-17:19
-84            android:name="com.google.firebase.components.ComponentDiscoveryService"
-84-->[com.google.firebase:firebase-database-ktx:20.1.0] C:\Users\nabil\.gradle\caches\transforms-3\630f1bce7bfac4cd86f1b705ca81a442\transformed\firebase-database-ktx-20.1.0\AndroidManifest.xml:12:13-84
-85            android:directBootAware="true"
-85-->[com.google.firebase:firebase-common:20.2.0] C:\Users\nabil\.gradle\caches\transforms-3\806ddb043dbf17cb34e304dd259d5a8d\transformed\firebase-common-20.2.0\AndroidManifest.xml:34:13-43
-86            android:exported="false" >
-86-->[com.google.firebase:firebase-database-ktx:20.1.0] C:\Users\nabil\.gradle\caches\transforms-3\630f1bce7bfac4cd86f1b705ca81a442\transformed\firebase-database-ktx-20.1.0\AndroidManifest.xml:13:13-37
-87            <meta-data
-87-->[com.google.firebase:firebase-database-ktx:20.1.0] C:\Users\nabil\.gradle\caches\transforms-3\630f1bce7bfac4cd86f1b705ca81a442\transformed\firebase-database-ktx-20.1.0\AndroidManifest.xml:14:13-16:85
-88                android:name="com.google.firebase.components:com.google.firebase.database.ktx.FirebaseDatabaseKtxRegistrar"
-88-->[com.google.firebase:firebase-database-ktx:20.1.0] C:\Users\nabil\.gradle\caches\transforms-3\630f1bce7bfac4cd86f1b705ca81a442\transformed\firebase-database-ktx-20.1.0\AndroidManifest.xml:15:17-124
-89                android:value="com.google.firebase.components.ComponentRegistrar" />
-89-->[com.google.firebase:firebase-database-ktx:20.1.0] C:\Users\nabil\.gradle\caches\transforms-3\630f1bce7bfac4cd86f1b705ca81a442\transformed\firebase-database-ktx-20.1.0\AndroidManifest.xml:16:17-82
-90            <meta-data
-90-->[com.google.firebase:firebase-database:20.1.0] C:\Users\nabil\.gradle\caches\transforms-3\dc167ef5eb63640ed0e325581d13808f\transformed\firebase-database-20.1.0\AndroidManifest.xml:31:13-33:85
-91                android:name="com.google.firebase.components:com.google.firebase.database.DatabaseRegistrar"
-91-->[com.google.firebase:firebase-database:20.1.0] C:\Users\nabil\.gradle\caches\transforms-3\dc167ef5eb63640ed0e325581d13808f\transformed\firebase-database-20.1.0\AndroidManifest.xml:32:17-109
-92                android:value="com.google.firebase.components.ComponentRegistrar" />
-92-->[com.google.firebase:firebase-database:20.1.0] C:\Users\nabil\.gradle\caches\transforms-3\dc167ef5eb63640ed0e325581d13808f\transformed\firebase-database-20.1.0\AndroidManifest.xml:33:17-82
-93            <meta-data
-93-->[com.google.firebase:firebase-common-ktx:20.2.0] C:\Users\nabil\.gradle\caches\transforms-3\bc45b281d87c4e748dfcde9f1dc92278\transformed\firebase-common-ktx-20.2.0\AndroidManifest.xml:14:13-16:85
-94                android:name="com.google.firebase.components:com.google.firebase.ktx.FirebaseCommonKtxRegistrar"
-94-->[com.google.firebase:firebase-common-ktx:20.2.0] C:\Users\nabil\.gradle\caches\transforms-3\bc45b281d87c4e748dfcde9f1dc92278\transformed\firebase-common-ktx-20.2.0\AndroidManifest.xml:15:17-113
-95                android:value="com.google.firebase.components.ComponentRegistrar" />
-95-->[com.google.firebase:firebase-common-ktx:20.2.0] C:\Users\nabil\.gradle\caches\transforms-3\bc45b281d87c4e748dfcde9f1dc92278\transformed\firebase-common-ktx-20.2.0\AndroidManifest.xml:16:17-82
-96        </service>
-97
-98        <activity
-98-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\nabil\.gradle\caches\transforms-3\659ac7f17388dad9bf6ece41ab337306\transformed\play-services-base-18.0.1\AndroidManifest.xml:20:9-22:45
-99            android:name="com.google.android.gms.common.api.GoogleApiActivity"
-99-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\nabil\.gradle\caches\transforms-3\659ac7f17388dad9bf6ece41ab337306\transformed\play-services-base-18.0.1\AndroidManifest.xml:20:19-85
-100            android:exported="false"
-100-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\nabil\.gradle\caches\transforms-3\659ac7f17388dad9bf6ece41ab337306\transformed\play-services-base-18.0.1\AndroidManifest.xml:22:19-43
-101            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
-101-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\nabil\.gradle\caches\transforms-3\659ac7f17388dad9bf6ece41ab337306\transformed\play-services-base-18.0.1\AndroidManifest.xml:21:19-78
-102
-103        <provider
-103-->[com.google.firebase:firebase-common:20.2.0] C:\Users\nabil\.gradle\caches\transforms-3\806ddb043dbf17cb34e304dd259d5a8d\transformed\firebase-common-20.2.0\AndroidManifest.xml:25:9-30:39
-104            android:name="com.google.firebase.provider.FirebaseInitProvider"
-104-->[com.google.firebase:firebase-common:20.2.0] C:\Users\nabil\.gradle\caches\transforms-3\806ddb043dbf17cb34e304dd259d5a8d\transformed\firebase-common-20.2.0\AndroidManifest.xml:26:13-77
-105            android:authorities="com.example.carpoolapp.firebaseinitprovider"
-105-->[com.google.firebase:firebase-common:20.2.0] C:\Users\nabil\.gradle\caches\transforms-3\806ddb043dbf17cb34e304dd259d5a8d\transformed\firebase-common-20.2.0\AndroidManifest.xml:27:13-72
-106            android:directBootAware="true"
-106-->[com.google.firebase:firebase-common:20.2.0] C:\Users\nabil\.gradle\caches\transforms-3\806ddb043dbf17cb34e304dd259d5a8d\transformed\firebase-common-20.2.0\AndroidManifest.xml:28:13-43
-107            android:exported="false"
-107-->[com.google.firebase:firebase-common:20.2.0] C:\Users\nabil\.gradle\caches\transforms-3\806ddb043dbf17cb34e304dd259d5a8d\transformed\firebase-common-20.2.0\AndroidManifest.xml:29:13-37
-108            android:initOrder="100" />
-108-->[com.google.firebase:firebase-common:20.2.0] C:\Users\nabil\.gradle\caches\transforms-3\806ddb043dbf17cb34e304dd259d5a8d\transformed\firebase-common-20.2.0\AndroidManifest.xml:30:13-36
-109
-110        <meta-data
-110-->[com.google.android.gms:play-services-basement:18.1.0] C:\Users\nabil\.gradle\caches\transforms-3\13ba9bc0f58e5697e0774921e451d290\transformed\play-services-basement-18.1.0\AndroidManifest.xml:21:9-23:69
-111            android:name="com.google.android.gms.version"
-111-->[com.google.android.gms:play-services-basement:18.1.0] C:\Users\nabil\.gradle\caches\transforms-3\13ba9bc0f58e5697e0774921e451d290\transformed\play-services-basement-18.1.0\AndroidManifest.xml:22:13-58
-112            android:value="@integer/google_play_services_version" />
-112-->[com.google.android.gms:play-services-basement:18.1.0] C:\Users\nabil\.gradle\caches\transforms-3\13ba9bc0f58e5697e0774921e451d290\transformed\play-services-basement-18.1.0\AndroidManifest.xml:23:13-66
-113
-114        <provider
-114-->[androidx.emoji2:emoji2:1.2.0] C:\Users\nabil\.gradle\caches\transforms-3\3059d4c32b7547017d9227276647d327\transformed\emoji2-1.2.0\AndroidManifest.xml:24:9-32:20
-115            android:name="androidx.startup.InitializationProvider"
-115-->[androidx.emoji2:emoji2:1.2.0] C:\Users\nabil\.gradle\caches\transforms-3\3059d4c32b7547017d9227276647d327\transformed\emoji2-1.2.0\AndroidManifest.xml:25:13-67
-116            android:authorities="com.example.carpoolapp.androidx-startup"
-116-->[androidx.emoji2:emoji2:1.2.0] C:\Users\nabil\.gradle\caches\transforms-3\3059d4c32b7547017d9227276647d327\transformed\emoji2-1.2.0\AndroidManifest.xml:26:13-68
-117            android:exported="false" >
-117-->[androidx.emoji2:emoji2:1.2.0] C:\Users\nabil\.gradle\caches\transforms-3\3059d4c32b7547017d9227276647d327\transformed\emoji2-1.2.0\AndroidManifest.xml:27:13-37
-118            <meta-data
-118-->[androidx.emoji2:emoji2:1.2.0] C:\Users\nabil\.gradle\caches\transforms-3\3059d4c32b7547017d9227276647d327\transformed\emoji2-1.2.0\AndroidManifest.xml:29:13-31:52
-119                android:name="androidx.emoji2.text.EmojiCompatInitializer"
-119-->[androidx.emoji2:emoji2:1.2.0] C:\Users\nabil\.gradle\caches\transforms-3\3059d4c32b7547017d9227276647d327\transformed\emoji2-1.2.0\AndroidManifest.xml:30:17-75
-120                android:value="androidx.startup" />
-120-->[androidx.emoji2:emoji2:1.2.0] C:\Users\nabil\.gradle\caches\transforms-3\3059d4c32b7547017d9227276647d327\transformed\emoji2-1.2.0\AndroidManifest.xml:31:17-49
-121            <meta-data
-121-->[androidx.lifecycle:lifecycle-process:2.6.1] C:\Users\nabil\.gradle\caches\transforms-3\aa9a7a781621e54b6bbd7ef15e9c6c2f\transformed\lifecycle-process-2.6.1\AndroidManifest.xml:29:13-31:52
-122                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
-122-->[androidx.lifecycle:lifecycle-process:2.6.1] C:\Users\nabil\.gradle\caches\transforms-3\aa9a7a781621e54b6bbd7ef15e9c6c2f\transformed\lifecycle-process-2.6.1\AndroidManifest.xml:30:17-78
-123                android:value="androidx.startup" />
-123-->[androidx.lifecycle:lifecycle-process:2.6.1] C:\Users\nabil\.gradle\caches\transforms-3\aa9a7a781621e54b6bbd7ef15e9c6c2f\transformed\lifecycle-process-2.6.1\AndroidManifest.xml:31:17-49
-124            <meta-data
-124-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\nabil\.gradle\caches\transforms-3\88ad82ae02cd0bff263c51a9f4b38df6\transformed\profileinstaller-1.3.0\AndroidManifest.xml:29:13-31:52
-125                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
-125-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\nabil\.gradle\caches\transforms-3\88ad82ae02cd0bff263c51a9f4b38df6\transformed\profileinstaller-1.3.0\AndroidManifest.xml:30:17-85
-126                android:value="androidx.startup" />
-126-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\nabil\.gradle\caches\transforms-3\88ad82ae02cd0bff263c51a9f4b38df6\transformed\profileinstaller-1.3.0\AndroidManifest.xml:31:17-49
-127        </provider>
-128
-129        <receiver
-129-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\nabil\.gradle\caches\transforms-3\88ad82ae02cd0bff263c51a9f4b38df6\transformed\profileinstaller-1.3.0\AndroidManifest.xml:34:9-52:20
-130            android:name="androidx.profileinstaller.ProfileInstallReceiver"
-130-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\nabil\.gradle\caches\transforms-3\88ad82ae02cd0bff263c51a9f4b38df6\transformed\profileinstaller-1.3.0\AndroidManifest.xml:35:13-76
-131            android:directBootAware="false"
-131-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\nabil\.gradle\caches\transforms-3\88ad82ae02cd0bff263c51a9f4b38df6\transformed\profileinstaller-1.3.0\AndroidManifest.xml:36:13-44
-132            android:enabled="true"
-132-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\nabil\.gradle\caches\transforms-3\88ad82ae02cd0bff263c51a9f4b38df6\transformed\profileinstaller-1.3.0\AndroidManifest.xml:37:13-35
-133            android:exported="true"
-133-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\nabil\.gradle\caches\transforms-3\88ad82ae02cd0bff263c51a9f4b38df6\transformed\profileinstaller-1.3.0\AndroidManifest.xml:38:13-36
-134            android:permission="android.permission.DUMP" >
-134-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\nabil\.gradle\caches\transforms-3\88ad82ae02cd0bff263c51a9f4b38df6\transformed\profileinstaller-1.3.0\AndroidManifest.xml:39:13-57
-135            <intent-filter>
-135-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\nabil\.gradle\caches\transforms-3\88ad82ae02cd0bff263c51a9f4b38df6\transformed\profileinstaller-1.3.0\AndroidManifest.xml:40:13-42:29
-136                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
-136-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\nabil\.gradle\caches\transforms-3\88ad82ae02cd0bff263c51a9f4b38df6\transformed\profileinstaller-1.3.0\AndroidManifest.xml:41:17-91
-136-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\nabil\.gradle\caches\transforms-3\88ad82ae02cd0bff263c51a9f4b38df6\transformed\profileinstaller-1.3.0\AndroidManifest.xml:41:25-88
-137            </intent-filter>
-138            <intent-filter>
-138-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\nabil\.gradle\caches\transforms-3\88ad82ae02cd0bff263c51a9f4b38df6\transformed\profileinstaller-1.3.0\AndroidManifest.xml:43:13-45:29
-139                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
-139-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\nabil\.gradle\caches\transforms-3\88ad82ae02cd0bff263c51a9f4b38df6\transformed\profileinstaller-1.3.0\AndroidManifest.xml:44:17-85
-139-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\nabil\.gradle\caches\transforms-3\88ad82ae02cd0bff263c51a9f4b38df6\transformed\profileinstaller-1.3.0\AndroidManifest.xml:44:25-82
-140            </intent-filter>
-141            <intent-filter>
-141-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\nabil\.gradle\caches\transforms-3\88ad82ae02cd0bff263c51a9f4b38df6\transformed\profileinstaller-1.3.0\AndroidManifest.xml:46:13-48:29
-142                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE" />
-142-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\nabil\.gradle\caches\transforms-3\88ad82ae02cd0bff263c51a9f4b38df6\transformed\profileinstaller-1.3.0\AndroidManifest.xml:47:17-88
-142-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\nabil\.gradle\caches\transforms-3\88ad82ae02cd0bff263c51a9f4b38df6\transformed\profileinstaller-1.3.0\AndroidManifest.xml:47:25-85
-143            </intent-filter>
-144            <intent-filter>
-144-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\nabil\.gradle\caches\transforms-3\88ad82ae02cd0bff263c51a9f4b38df6\transformed\profileinstaller-1.3.0\AndroidManifest.xml:49:13-51:29
-145                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION" />
-145-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\nabil\.gradle\caches\transforms-3\88ad82ae02cd0bff263c51a9f4b38df6\transformed\profileinstaller-1.3.0\AndroidManifest.xml:50:17-95
-145-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\nabil\.gradle\caches\transforms-3\88ad82ae02cd0bff263c51a9f4b38df6\transformed\profileinstaller-1.3.0\AndroidManifest.xml:50:25-92
-146            </intent-filter>
-147        </receiver>
-148    </application>
-149
-150</manifest>
+83                <category android:name="android.intent.category.LAUNCHER" />
+83-->/Users/akanksha/Desktop/3A04Project/carpoolapp/app/src/main/AndroidManifest.xml:20:17-77
+83-->/Users/akanksha/Desktop/3A04Project/carpoolapp/app/src/main/AndroidManifest.xml:20:27-74
+84            </intent-filter>
+85        </activity>
+86        <!-- Needs to be explicitly declared on P+ -->
+87        <uses-library
+87-->[com.google.android.gms:play-services-maps:18.1.0] /Users/akanksha/.gradle/caches/transforms-3/37b4e3659ba88534be39afd65ce7fd43/transformed/play-services-maps-18.1.0/AndroidManifest.xml:39:9-41:40
+88            android:name="org.apache.http.legacy"
+88-->[com.google.android.gms:play-services-maps:18.1.0] /Users/akanksha/.gradle/caches/transforms-3/37b4e3659ba88534be39afd65ce7fd43/transformed/play-services-maps-18.1.0/AndroidManifest.xml:40:13-50
+89            android:required="false" />
+89-->[com.google.android.gms:play-services-maps:18.1.0] /Users/akanksha/.gradle/caches/transforms-3/37b4e3659ba88534be39afd65ce7fd43/transformed/play-services-maps-18.1.0/AndroidManifest.xml:41:13-37
+90
+91        <service
+91-->[com.google.firebase:firebase-database-ktx:20.1.0] /Users/akanksha/.gradle/caches/transforms-3/630f1bce7bfac4cd86f1b705ca81a442/transformed/firebase-database-ktx-20.1.0/AndroidManifest.xml:11:9-17:19
+92            android:name="com.google.firebase.components.ComponentDiscoveryService"
+92-->[com.google.firebase:firebase-database-ktx:20.1.0] /Users/akanksha/.gradle/caches/transforms-3/630f1bce7bfac4cd86f1b705ca81a442/transformed/firebase-database-ktx-20.1.0/AndroidManifest.xml:12:13-84
+93            android:directBootAware="true"
+93-->[com.google.firebase:firebase-common:20.2.0] /Users/akanksha/.gradle/caches/transforms-3/806ddb043dbf17cb34e304dd259d5a8d/transformed/firebase-common-20.2.0/AndroidManifest.xml:34:13-43
+94            android:exported="false" >
+94-->[com.google.firebase:firebase-database-ktx:20.1.0] /Users/akanksha/.gradle/caches/transforms-3/630f1bce7bfac4cd86f1b705ca81a442/transformed/firebase-database-ktx-20.1.0/AndroidManifest.xml:13:13-37
+95            <meta-data
+95-->[com.google.firebase:firebase-database-ktx:20.1.0] /Users/akanksha/.gradle/caches/transforms-3/630f1bce7bfac4cd86f1b705ca81a442/transformed/firebase-database-ktx-20.1.0/AndroidManifest.xml:14:13-16:85
+96                android:name="com.google.firebase.components:com.google.firebase.database.ktx.FirebaseDatabaseKtxRegistrar"
+96-->[com.google.firebase:firebase-database-ktx:20.1.0] /Users/akanksha/.gradle/caches/transforms-3/630f1bce7bfac4cd86f1b705ca81a442/transformed/firebase-database-ktx-20.1.0/AndroidManifest.xml:15:17-124
+97                android:value="com.google.firebase.components.ComponentRegistrar" />
+97-->[com.google.firebase:firebase-database-ktx:20.1.0] /Users/akanksha/.gradle/caches/transforms-3/630f1bce7bfac4cd86f1b705ca81a442/transformed/firebase-database-ktx-20.1.0/AndroidManifest.xml:16:17-82
+98            <meta-data
+98-->[com.google.firebase:firebase-database:20.1.0] /Users/akanksha/.gradle/caches/transforms-3/dc167ef5eb63640ed0e325581d13808f/transformed/firebase-database-20.1.0/AndroidManifest.xml:31:13-33:85
+99                android:name="com.google.firebase.components:com.google.firebase.database.DatabaseRegistrar"
+99-->[com.google.firebase:firebase-database:20.1.0] /Users/akanksha/.gradle/caches/transforms-3/dc167ef5eb63640ed0e325581d13808f/transformed/firebase-database-20.1.0/AndroidManifest.xml:32:17-109
+100                android:value="com.google.firebase.components.ComponentRegistrar" />
+100-->[com.google.firebase:firebase-database:20.1.0] /Users/akanksha/.gradle/caches/transforms-3/dc167ef5eb63640ed0e325581d13808f/transformed/firebase-database-20.1.0/AndroidManifest.xml:33:17-82
+101            <meta-data
+101-->[com.google.firebase:firebase-common-ktx:20.2.0] /Users/akanksha/.gradle/caches/transforms-3/bc45b281d87c4e748dfcde9f1dc92278/transformed/firebase-common-ktx-20.2.0/AndroidManifest.xml:14:13-16:85
+102                android:name="com.google.firebase.components:com.google.firebase.ktx.FirebaseCommonKtxRegistrar"
+102-->[com.google.firebase:firebase-common-ktx:20.2.0] /Users/akanksha/.gradle/caches/transforms-3/bc45b281d87c4e748dfcde9f1dc92278/transformed/firebase-common-ktx-20.2.0/AndroidManifest.xml:15:17-113
+103                android:value="com.google.firebase.components.ComponentRegistrar" />
+103-->[com.google.firebase:firebase-common-ktx:20.2.0] /Users/akanksha/.gradle/caches/transforms-3/bc45b281d87c4e748dfcde9f1dc92278/transformed/firebase-common-ktx-20.2.0/AndroidManifest.xml:16:17-82
+104        </service>
+105
+106        <activity
+106-->[com.google.android.gms:play-services-base:18.0.1] /Users/akanksha/.gradle/caches/transforms-3/659ac7f17388dad9bf6ece41ab337306/transformed/play-services-base-18.0.1/AndroidManifest.xml:20:9-22:45
+107            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+107-->[com.google.android.gms:play-services-base:18.0.1] /Users/akanksha/.gradle/caches/transforms-3/659ac7f17388dad9bf6ece41ab337306/transformed/play-services-base-18.0.1/AndroidManifest.xml:20:19-85
+108            android:exported="false"
+108-->[com.google.android.gms:play-services-base:18.0.1] /Users/akanksha/.gradle/caches/transforms-3/659ac7f17388dad9bf6ece41ab337306/transformed/play-services-base-18.0.1/AndroidManifest.xml:22:19-43
+109            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+109-->[com.google.android.gms:play-services-base:18.0.1] /Users/akanksha/.gradle/caches/transforms-3/659ac7f17388dad9bf6ece41ab337306/transformed/play-services-base-18.0.1/AndroidManifest.xml:21:19-78
+110
+111        <provider
+111-->[com.google.firebase:firebase-common:20.2.0] /Users/akanksha/.gradle/caches/transforms-3/806ddb043dbf17cb34e304dd259d5a8d/transformed/firebase-common-20.2.0/AndroidManifest.xml:25:9-30:39
+112            android:name="com.google.firebase.provider.FirebaseInitProvider"
+112-->[com.google.firebase:firebase-common:20.2.0] /Users/akanksha/.gradle/caches/transforms-3/806ddb043dbf17cb34e304dd259d5a8d/transformed/firebase-common-20.2.0/AndroidManifest.xml:26:13-77
+113            android:authorities="com.example.carpoolapp.firebaseinitprovider"
+113-->[com.google.firebase:firebase-common:20.2.0] /Users/akanksha/.gradle/caches/transforms-3/806ddb043dbf17cb34e304dd259d5a8d/transformed/firebase-common-20.2.0/AndroidManifest.xml:27:13-72
+114            android:directBootAware="true"
+114-->[com.google.firebase:firebase-common:20.2.0] /Users/akanksha/.gradle/caches/transforms-3/806ddb043dbf17cb34e304dd259d5a8d/transformed/firebase-common-20.2.0/AndroidManifest.xml:28:13-43
+115            android:exported="false"
+115-->[com.google.firebase:firebase-common:20.2.0] /Users/akanksha/.gradle/caches/transforms-3/806ddb043dbf17cb34e304dd259d5a8d/transformed/firebase-common-20.2.0/AndroidManifest.xml:29:13-37
+116            android:initOrder="100" />
+116-->[com.google.firebase:firebase-common:20.2.0] /Users/akanksha/.gradle/caches/transforms-3/806ddb043dbf17cb34e304dd259d5a8d/transformed/firebase-common-20.2.0/AndroidManifest.xml:30:13-36
+117
+118        <meta-data
+118-->[com.google.android.gms:play-services-basement:18.1.0] /Users/akanksha/.gradle/caches/transforms-3/13ba9bc0f58e5697e0774921e451d290/transformed/play-services-basement-18.1.0/AndroidManifest.xml:21:9-23:69
+119            android:name="com.google.android.gms.version"
+119-->[com.google.android.gms:play-services-basement:18.1.0] /Users/akanksha/.gradle/caches/transforms-3/13ba9bc0f58e5697e0774921e451d290/transformed/play-services-basement-18.1.0/AndroidManifest.xml:22:13-58
+120            android:value="@integer/google_play_services_version" />
+120-->[com.google.android.gms:play-services-basement:18.1.0] /Users/akanksha/.gradle/caches/transforms-3/13ba9bc0f58e5697e0774921e451d290/transformed/play-services-basement-18.1.0/AndroidManifest.xml:23:13-66
+121
+122        <provider
+122-->[androidx.emoji2:emoji2:1.2.0] /Users/akanksha/.gradle/caches/transforms-3/3059d4c32b7547017d9227276647d327/transformed/emoji2-1.2.0/AndroidManifest.xml:24:9-32:20
+123            android:name="androidx.startup.InitializationProvider"
+123-->[androidx.emoji2:emoji2:1.2.0] /Users/akanksha/.gradle/caches/transforms-3/3059d4c32b7547017d9227276647d327/transformed/emoji2-1.2.0/AndroidManifest.xml:25:13-67
+124            android:authorities="com.example.carpoolapp.androidx-startup"
+124-->[androidx.emoji2:emoji2:1.2.0] /Users/akanksha/.gradle/caches/transforms-3/3059d4c32b7547017d9227276647d327/transformed/emoji2-1.2.0/AndroidManifest.xml:26:13-68
+125            android:exported="false" >
+125-->[androidx.emoji2:emoji2:1.2.0] /Users/akanksha/.gradle/caches/transforms-3/3059d4c32b7547017d9227276647d327/transformed/emoji2-1.2.0/AndroidManifest.xml:27:13-37
+126            <meta-data
+126-->[androidx.emoji2:emoji2:1.2.0] /Users/akanksha/.gradle/caches/transforms-3/3059d4c32b7547017d9227276647d327/transformed/emoji2-1.2.0/AndroidManifest.xml:29:13-31:52
+127                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+127-->[androidx.emoji2:emoji2:1.2.0] /Users/akanksha/.gradle/caches/transforms-3/3059d4c32b7547017d9227276647d327/transformed/emoji2-1.2.0/AndroidManifest.xml:30:17-75
+128                android:value="androidx.startup" />
+128-->[androidx.emoji2:emoji2:1.2.0] /Users/akanksha/.gradle/caches/transforms-3/3059d4c32b7547017d9227276647d327/transformed/emoji2-1.2.0/AndroidManifest.xml:31:17-49
+129            <meta-data
+129-->[androidx.lifecycle:lifecycle-process:2.6.1] /Users/akanksha/.gradle/caches/transforms-3/aa9a7a781621e54b6bbd7ef15e9c6c2f/transformed/lifecycle-process-2.6.1/AndroidManifest.xml:29:13-31:52
+130                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+130-->[androidx.lifecycle:lifecycle-process:2.6.1] /Users/akanksha/.gradle/caches/transforms-3/aa9a7a781621e54b6bbd7ef15e9c6c2f/transformed/lifecycle-process-2.6.1/AndroidManifest.xml:30:17-78
+131                android:value="androidx.startup" />
+131-->[androidx.lifecycle:lifecycle-process:2.6.1] /Users/akanksha/.gradle/caches/transforms-3/aa9a7a781621e54b6bbd7ef15e9c6c2f/transformed/lifecycle-process-2.6.1/AndroidManifest.xml:31:17-49
+132            <meta-data
+132-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/akanksha/.gradle/caches/transforms-3/88ad82ae02cd0bff263c51a9f4b38df6/transformed/profileinstaller-1.3.0/AndroidManifest.xml:29:13-31:52
+133                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
+133-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/akanksha/.gradle/caches/transforms-3/88ad82ae02cd0bff263c51a9f4b38df6/transformed/profileinstaller-1.3.0/AndroidManifest.xml:30:17-85
+134                android:value="androidx.startup" />
+134-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/akanksha/.gradle/caches/transforms-3/88ad82ae02cd0bff263c51a9f4b38df6/transformed/profileinstaller-1.3.0/AndroidManifest.xml:31:17-49
+135        </provider>
+136
+137        <receiver
+137-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/akanksha/.gradle/caches/transforms-3/88ad82ae02cd0bff263c51a9f4b38df6/transformed/profileinstaller-1.3.0/AndroidManifest.xml:34:9-52:20
+138            android:name="androidx.profileinstaller.ProfileInstallReceiver"
+138-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/akanksha/.gradle/caches/transforms-3/88ad82ae02cd0bff263c51a9f4b38df6/transformed/profileinstaller-1.3.0/AndroidManifest.xml:35:13-76
+139            android:directBootAware="false"
+139-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/akanksha/.gradle/caches/transforms-3/88ad82ae02cd0bff263c51a9f4b38df6/transformed/profileinstaller-1.3.0/AndroidManifest.xml:36:13-44
+140            android:enabled="true"
+140-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/akanksha/.gradle/caches/transforms-3/88ad82ae02cd0bff263c51a9f4b38df6/transformed/profileinstaller-1.3.0/AndroidManifest.xml:37:13-35
+141            android:exported="true"
+141-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/akanksha/.gradle/caches/transforms-3/88ad82ae02cd0bff263c51a9f4b38df6/transformed/profileinstaller-1.3.0/AndroidManifest.xml:38:13-36
+142            android:permission="android.permission.DUMP" >
+142-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/akanksha/.gradle/caches/transforms-3/88ad82ae02cd0bff263c51a9f4b38df6/transformed/profileinstaller-1.3.0/AndroidManifest.xml:39:13-57
+143            <intent-filter>
+143-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/akanksha/.gradle/caches/transforms-3/88ad82ae02cd0bff263c51a9f4b38df6/transformed/profileinstaller-1.3.0/AndroidManifest.xml:40:13-42:29
+144                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
+144-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/akanksha/.gradle/caches/transforms-3/88ad82ae02cd0bff263c51a9f4b38df6/transformed/profileinstaller-1.3.0/AndroidManifest.xml:41:17-91
+144-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/akanksha/.gradle/caches/transforms-3/88ad82ae02cd0bff263c51a9f4b38df6/transformed/profileinstaller-1.3.0/AndroidManifest.xml:41:25-88
+145            </intent-filter>
+146            <intent-filter>
+146-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/akanksha/.gradle/caches/transforms-3/88ad82ae02cd0bff263c51a9f4b38df6/transformed/profileinstaller-1.3.0/AndroidManifest.xml:43:13-45:29
+147                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
+147-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/akanksha/.gradle/caches/transforms-3/88ad82ae02cd0bff263c51a9f4b38df6/transformed/profileinstaller-1.3.0/AndroidManifest.xml:44:17-85
+147-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/akanksha/.gradle/caches/transforms-3/88ad82ae02cd0bff263c51a9f4b38df6/transformed/profileinstaller-1.3.0/AndroidManifest.xml:44:25-82
+148            </intent-filter>
+149            <intent-filter>
+149-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/akanksha/.gradle/caches/transforms-3/88ad82ae02cd0bff263c51a9f4b38df6/transformed/profileinstaller-1.3.0/AndroidManifest.xml:46:13-48:29
+150                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE" />
+150-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/akanksha/.gradle/caches/transforms-3/88ad82ae02cd0bff263c51a9f4b38df6/transformed/profileinstaller-1.3.0/AndroidManifest.xml:47:17-88
+150-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/akanksha/.gradle/caches/transforms-3/88ad82ae02cd0bff263c51a9f4b38df6/transformed/profileinstaller-1.3.0/AndroidManifest.xml:47:25-85
+151            </intent-filter>
+152            <intent-filter>
+152-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/akanksha/.gradle/caches/transforms-3/88ad82ae02cd0bff263c51a9f4b38df6/transformed/profileinstaller-1.3.0/AndroidManifest.xml:49:13-51:29
+153                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION" />
+153-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/akanksha/.gradle/caches/transforms-3/88ad82ae02cd0bff263c51a9f4b38df6/transformed/profileinstaller-1.3.0/AndroidManifest.xml:50:17-95
+153-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/akanksha/.gradle/caches/transforms-3/88ad82ae02cd0bff263c51a9f4b38df6/transformed/profileinstaller-1.3.0/AndroidManifest.xml:50:25-92
+154            </intent-filter>
+155        </receiver>
+156    </application>
+157
+158</manifest>

@@ -40,7 +40,15 @@
         android:supportsRtl="true"
         android:testOnly="true"
         android:theme="@style/Theme.Carpoolapp" >
+        <activity
+            android:name="com.example.carpoolapp.StartingActivity"
+            android:exported="true" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
 
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
         <!--
              TODO: Before you run your application, you need a Google Maps API key.
 

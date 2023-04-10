@@ -28,6 +28,8 @@ id RequestDisplayingTitle
 id TaxiIDtext
 id Titletext
 id address
+id appheading
+id apptitle
 id carpoolmembernameheading
 id carpoolmemberusernamefield
 id confirmratingButton
@@ -55,6 +57,8 @@ id loginpassword
 id logintitle
 id loginusername
 id map
+id movetologinbtn
+id movetosignupbtn
 id name
 id offerRideMenu
 id offerdestlocationfield
@@ -97,8 +101,10 @@ id submitOfferbutton
 id userName
 id user_registration_password
 id username
+id welcomeappLogo
 layout activity_main
 layout activity_maps
+layout activity_starting
 layout fragment_final_route_display
 layout fragment_final_trip_display
 layout fragment_home
@@ -111,6 +117,7 @@ layout fragment_rating_form
 layout fragment_registration
 layout fragment_request_displaying
 layout fragment_request_ride
+layout fragment_starting
 layout single_offer_item
 layout single_request_item
 layout single_user_item

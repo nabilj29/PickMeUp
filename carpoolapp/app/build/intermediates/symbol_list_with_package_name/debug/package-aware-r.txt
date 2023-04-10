@@ -2967,6 +2967,8 @@ id animateToEnd
 id animateToStart
 id antiClockwise
 id anticipate
+id appheading
+id apptitle
 id arc
 id asConfigured
 id async
@@ -3191,6 +3193,8 @@ id month_navigation_next
 id month_navigation_previous
 id month_title
 id motion_base
+id movetologinbtn
+id movetosignupbtn
 id mtrl_anchor_parent
 id mtrl_calendar_day_selector_frame
 id mtrl_calendar_days_of_week
@@ -3445,6 +3449,7 @@ id view_tree_saved_state_registry_owner
 id view_tree_view_model_store_owner
 id visible
 id visible_removing_fragment_view_tag
+id welcomeappLogo
 id west
 id wide
 id withText
@@ -3564,6 +3569,7 @@ layout abc_select_dialog_material
 layout abc_tooltip
 layout activity_main
 layout activity_maps
+layout activity_starting
 layout custom_dialog
 layout design_bottom_navigation_item
 layout design_bottom_sheet_dialog
@@ -3592,6 +3598,7 @@ layout fragment_rating_form
 layout fragment_registration
 layout fragment_request_displaying
 layout fragment_request_ride
+layout fragment_starting
 layout m3_alert_dialog
 layout m3_alert_dialog_actions
 layout m3_alert_dialog_title

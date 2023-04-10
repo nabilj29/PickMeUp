@@ -1,74 +1,82 @@
 [
     {
-        "merged": "com.example.carpoolapp-mergeDebugResources-39:/layout/activity_maps.xml",
-        "source": "com.example.carpoolapp-main-42:/layout/activity_maps.xml"
+        "merged": "/Users/akanksha/.gradle/daemon/7.5/com.example.carpoolapp-mergeDebugResources-39:/layout/fragment_final_trip_display.xml",
+        "source": "/Users/akanksha/.gradle/daemon/7.5/com.example.carpoolapp-main-42:/layout/fragment_final_trip_display.xml"
     },
     {
-        "merged": "com.example.carpoolapp-mergeDebugResources-39:/layout/fragment_final_trip_display.xml",
-        "source": "com.example.carpoolapp-main-42:/layout/fragment_final_trip_display.xml"
+        "merged": "/Users/akanksha/.gradle/daemon/7.5/com.example.carpoolapp-mergeDebugResources-39:/layout/fragment_final_route_display.xml",
+        "source": "/Users/akanksha/.gradle/daemon/7.5/com.example.carpoolapp-main-42:/layout/fragment_final_route_display.xml"
     },
     {
-        "merged": "com.example.carpoolapp-mergeDebugResources-39:/layout/fragment_offers_displaying.xml",
-        "source": "com.example.carpoolapp-main-42:/layout/fragment_offers_displaying.xml"
+        "merged": "/Users/akanksha/.gradle/daemon/7.5/com.example.carpoolapp-mergeDebugResources-39:/layout/fragment_registration.xml",
+        "source": "/Users/akanksha/.gradle/daemon/7.5/com.example.carpoolapp-main-42:/layout/fragment_registration.xml"
     },
     {
-        "merged": "com.example.carpoolapp-mergeDebugResources-39:/layout/fragment_offer_ride_details.xml",
-        "source": "com.example.carpoolapp-main-42:/layout/fragment_offer_ride_details.xml"
+        "merged": "/Users/akanksha/.gradle/daemon/7.5/com.example.carpoolapp-mergeDebugResources-39:/layout/single_request_item.xml",
+        "source": "/Users/akanksha/.gradle/daemon/7.5/com.example.carpoolapp-main-42:/layout/single_request_item.xml"
     },
     {
-        "merged": "com.example.carpoolapp-mergeDebugResources-39:/layout/fragment_request_displaying.xml",
-        "source": "com.example.carpoolapp-main-42:/layout/fragment_request_displaying.xml"
+        "merged": "/Users/akanksha/.gradle/daemon/7.5/com.example.carpoolapp-mergeDebugResources-39:/layout/activity_main.xml",
+        "source": "/Users/akanksha/.gradle/daemon/7.5/com.example.carpoolapp-main-42:/layout/activity_main.xml"
     },
     {
-        "merged": "com.example.carpoolapp-mergeDebugResources-39:/layout/single_offer_item.xml",
-        "source": "com.example.carpoolapp-main-42:/layout/single_offer_item.xml"
+        "merged": "/Users/akanksha/.gradle/daemon/7.5/com.example.carpoolapp-mergeDebugResources-39:/layout/fragment_login.xml",
+        "source": "/Users/akanksha/.gradle/daemon/7.5/com.example.carpoolapp-main-42:/layout/fragment_login.xml"
     },
     {
-        "merged": "com.example.carpoolapp-mergeDebugResources-39:/layout/single_user_item.xml",
-        "source": "com.example.carpoolapp-main-42:/layout/single_user_item.xml"
+        "merged": "/Users/akanksha/.gradle/daemon/7.5/com.example.carpoolapp-mergeDebugResources-39:/layout/fragment_request_ride.xml",
+        "source": "/Users/akanksha/.gradle/daemon/7.5/com.example.carpoolapp-main-42:/layout/fragment_request_ride.xml"
     },
     {
-        "merged": "com.example.carpoolapp-mergeDebugResources-39:/layout/activity_main.xml",
-        "source": "com.example.carpoolapp-main-42:/layout/activity_main.xml"
+        "merged": "/Users/akanksha/.gradle/daemon/7.5/com.example.carpoolapp-mergeDebugResources-39:/layout/fragment_profile.xml",
+        "source": "/Users/akanksha/.gradle/daemon/7.5/com.example.carpoolapp-main-42:/layout/fragment_profile.xml"
     },
     {
-        "merged": "com.example.carpoolapp-mergeDebugResources-39:/layout/fragment_offer_ride.xml",
-        "source": "com.example.carpoolapp-main-42:/layout/fragment_offer_ride.xml"
+        "merged": "/Users/akanksha/.gradle/daemon/7.5/com.example.carpoolapp-mergeDebugResources-39:/layout/single_offer_item.xml",
+        "source": "/Users/akanksha/.gradle/daemon/7.5/com.example.carpoolapp-main-42:/layout/single_offer_item.xml"
     },
     {
-        "merged": "com.example.carpoolapp-mergeDebugResources-39:/layout/fragment_rating_form.xml",
-        "source": "com.example.carpoolapp-main-42:/layout/fragment_rating_form.xml"
+        "merged": "/Users/akanksha/.gradle/daemon/7.5/com.example.carpoolapp-mergeDebugResources-39:/layout/single_user_rating.xml",
+        "source": "/Users/akanksha/.gradle/daemon/7.5/com.example.carpoolapp-main-42:/layout/single_user_rating.xml"
     },
     {
-        "merged": "com.example.carpoolapp-mergeDebugResources-39:/layout/single_request_item.xml",
-        "source": "com.example.carpoolapp-main-42:/layout/single_request_item.xml"
+        "merged": "/Users/akanksha/.gradle/daemon/7.5/com.example.carpoolapp-mergeDebugResources-39:/layout/fragment_home.xml",
+        "source": "/Users/akanksha/.gradle/daemon/7.5/com.example.carpoolapp-main-42:/layout/fragment_home.xml"
     },
     {
-        "merged": "com.example.carpoolapp-mergeDebugResources-39:/layout/fragment_final_route_display.xml",
-        "source": "com.example.carpoolapp-main-42:/layout/fragment_final_route_display.xml"
+        "merged": "/Users/akanksha/.gradle/daemon/7.5/com.example.carpoolapp-mergeDebugResources-39:/layout/activity_starting.xml",
+        "source": "/Users/akanksha/.gradle/daemon/7.5/com.example.carpoolapp-main-42:/layout/activity_starting.xml"
     },
     {
-        "merged": "com.example.carpoolapp-mergeDebugResources-39:/layout/fragment_profile.xml",
-        "source": "com.example.carpoolapp-main-42:/layout/fragment_profile.xml"
+        "merged": "/Users/akanksha/.gradle/daemon/7.5/com.example.carpoolapp-mergeDebugResources-39:/layout/activity_maps.xml",
+        "source": "/Users/akanksha/.gradle/daemon/7.5/com.example.carpoolapp-main-42:/layout/activity_maps.xml"
     },
     {
-        "merged": "com.example.carpoolapp-mergeDebugResources-39:/layout/fragment_login.xml",
-        "source": "com.example.carpoolapp-main-42:/layout/fragment_login.xml"
+        "merged": "/Users/akanksha/.gradle/daemon/7.5/com.example.carpoolapp-mergeDebugResources-39:/layout/fragment_request_displaying.xml",
+        "source": "/Users/akanksha/.gradle/daemon/7.5/com.example.carpoolapp-main-42:/layout/fragment_request_displaying.xml"
     },
     {
-        "merged": "com.example.carpoolapp-mergeDebugResources-39:/layout/fragment_registration.xml",
-        "source": "com.example.carpoolapp-main-42:/layout/fragment_registration.xml"
+        "merged": "/Users/akanksha/.gradle/daemon/7.5/com.example.carpoolapp-mergeDebugResources-39:/layout/fragment_offers_displaying.xml",
+        "source": "/Users/akanksha/.gradle/daemon/7.5/com.example.carpoolapp-main-42:/layout/fragment_offers_displaying.xml"
     },
     {
-        "merged": "com.example.carpoolapp-mergeDebugResources-39:/layout/fragment_request_ride.xml",
-        "source": "com.example.carpoolapp-main-42:/layout/fragment_request_ride.xml"
+        "merged": "com.example.carpoolapp-mergeDebugResources-39:/layout/fragment_starting.xml",
+        "source": "com.example.carpoolapp-main-42:/layout/fragment_starting.xml"
     },
     {
-        "merged": "com.example.carpoolapp-mergeDebugResources-39:/layout/fragment_home.xml",
-        "source": "com.example.carpoolapp-main-42:/layout/fragment_home.xml"
+        "merged": "/Users/akanksha/.gradle/daemon/7.5/com.example.carpoolapp-mergeDebugResources-39:/layout/fragment_rating_form.xml",
+        "source": "/Users/akanksha/.gradle/daemon/7.5/com.example.carpoolapp-main-42:/layout/fragment_rating_form.xml"
     },
     {
-        "merged": "com.example.carpoolapp-mergeDebugResources-39:/layout/single_user_rating.xml",
-        "source": "com.example.carpoolapp-main-42:/layout/single_user_rating.xml"
+        "merged": "/Users/akanksha/.gradle/daemon/7.5/com.example.carpoolapp-mergeDebugResources-39:/layout/fragment_offer_ride.xml",
+        "source": "/Users/akanksha/.gradle/daemon/7.5/com.example.carpoolapp-main-42:/layout/fragment_offer_ride.xml"
+    },
+    {
+        "merged": "/Users/akanksha/.gradle/daemon/7.5/com.example.carpoolapp-mergeDebugResources-39:/layout/fragment_offer_ride_details.xml",
+        "source": "/Users/akanksha/.gradle/daemon/7.5/com.example.carpoolapp-main-42:/layout/fragment_offer_ride_details.xml"
+    },
+    {
+        "merged": "/Users/akanksha/.gradle/daemon/7.5/com.example.carpoolapp-mergeDebugResources-39:/layout/single_user_item.xml",
+        "source": "/Users/akanksha/.gradle/daemon/7.5/com.example.carpoolapp-main-42:/layout/single_user_item.xml"
     }
 ]
