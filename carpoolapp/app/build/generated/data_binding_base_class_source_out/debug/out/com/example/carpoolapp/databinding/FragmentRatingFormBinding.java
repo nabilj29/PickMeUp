@@ -36,20 +36,15 @@ public final class FragmentRatingFormBinding implements ViewBinding {
   @NonNull
   public final RecyclerView recyclerView;
 
-  @NonNull
-  public final Button skipratingButton;
-
   private FragmentRatingFormBinding(@NonNull ConstraintLayout rootView,
       @NonNull Button confirmratingButton, @NonNull TextView fareTitle, @NonNull TextView fareValue,
-      @NonNull TextView ratingTitle, @NonNull RecyclerView recyclerView,
-      @NonNull Button skipratingButton) {
+      @NonNull TextView ratingTitle, @NonNull RecyclerView recyclerView) {
     this.rootView = rootView;
     this.confirmratingButton = confirmratingButton;
     this.fareTitle = fareTitle;
     this.fareValue = fareValue;
     this.ratingTitle = ratingTitle;
     this.recyclerView = recyclerView;
-    this.skipratingButton = skipratingButton;
   }
 
   @Override
@@ -109,14 +104,8 @@ public final class FragmentRatingFormBinding implements ViewBinding {
         break missingId;
       }
 
-      id = R.id.skipratingButton;
-      Button skipratingButton = ViewBindings.findChildViewById(rootView, id);
-      if (skipratingButton == null) {
-        break missingId;
-      }
-
       return new FragmentRatingFormBinding((ConstraintLayout) rootView, confirmratingButton,
-          fareTitle, fareValue, ratingTitle, recyclerView, skipratingButton);
+          fareTitle, fareValue, ratingTitle, recyclerView);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

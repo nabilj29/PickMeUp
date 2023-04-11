@@ -95,7 +95,6 @@ id searchOfferingUser
 id searchOffersButton
 id searchStartingLocation
 id settingsMenu
-id skipratingButton
 id startinglocationheading
 id submitIDbutton
 id submitOfferbutton

@@ -21,12 +21,17 @@ import android.util.Log
 import androidx.fragment.app.Fragment
 import com.example.carpoolapp.databinding.ActivityMapsBinding
 import com.google.android.gms.maps.model.LatLngBounds
+import com.google.firebase.database.FirebaseDatabase
 
 class MapsActivity : AppCompatActivity(), OnMapReadyCallback {
 
     private lateinit var mMap: GoogleMap
     private lateinit var binding: ActivityMapsBinding
     private var googleMap: GoogleMap? = null
+    val database = FirebaseDatabase.getInstance()
+    val ref = database.getReference("users")
+    private lateinit var selectedLocations: ArrayList<LatLng>
+
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -48,16 +53,20 @@ class MapsActivity : AppCompatActivity(), OnMapReadyCallback {
     }
     override fun onMapReady(googleMap: GoogleMap) {
         this.googleMap = googleMap
+        selectedLocations = intent.getParcelableArrayListExtra("selectedLocations") ?: ArrayList<LatLng>()
+
+        val addresses = mutableListOf<String>()
+
 
         // Define the list of destinations
-        val destinations = listOf(
-            LatLng(10.3181466, 123.9029382), // Ayala
-            LatLng(10.311795, 123.915864), // SM City
-            LatLng(10.305961, 123.893612) // Cebu IT Park
-        )
+//        val selectedLocations = listOf(
+//            LatLng(10.3181466, 123.9029382), // Ayala
+//            LatLng(10.311795, 123.915864), // SM City
+//            LatLng(10.305961, 123.893612) // Cebu IT Park
+//        )
 
         // Add markers for all destinations
-        destinations.forEachIndexed { index, latLng ->
+        selectedLocations.forEachIndexed { index, latLng ->
             this.googleMap!!.addMarker(
                 MarkerOptions().position(latLng).title("Destination ${index + 1}")
             )
@@ -65,7 +74,7 @@ class MapsActivity : AppCompatActivity(), OnMapReadyCallback {
 
         // Set the bounds for the map camera
         val builder = LatLngBounds.Builder()
-        destinations.forEach { builder.include(it) }
+        selectedLocations.forEach { builder.include(it) }
         val padding = 200 // in pixels
         val cameraUpdate = CameraUpdateFactory.newLatLngBounds(builder.build(), padding)
 
@@ -80,9 +89,9 @@ class MapsActivity : AppCompatActivity(), OnMapReadyCallback {
         var totalTime = 0
         var completedRequests = 0
         val apiKey = "AIzaSyA7JbQ-UI_ozF74Z7XBMrYWzGHGors8MT4"
-        for (i in 0 until destinations.size - 1) {
-            val origin = destinations[i]
-            val destination = destinations[i + 1]
+        for (i in 0 until selectedLocations.size - 1) {
+            val origin = selectedLocations[i]
+            val destination = selectedLocations[i + 1]
             val urlDirections =
                 "https://maps.googleapis.com/maps/api/directions/json?origin=${origin.latitude},${origin.longitude}&destination=${destination.latitude},${destination.longitude}&key=$apiKey"
 
@@ -112,7 +121,7 @@ class MapsActivity : AppCompatActivity(), OnMapReadyCallback {
                     // Increment completed requests counter
                     completedRequests++
                     // If all requests are completed, print the total distance and time
-                    if (completedRequests == destinations.size - 1) {
+                    if (completedRequests == selectedLocations.size - 1) {
                         val distanceInKm = totalDistance / 1000.0
                         val timeInMin = totalTime/60.0
                         Log.d("Distance", "Total distance: $distanceInKm km")
