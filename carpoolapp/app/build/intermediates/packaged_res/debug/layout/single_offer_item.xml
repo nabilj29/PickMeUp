@@ -92,7 +92,7 @@
             android:id="@+id/offerdestlocationfield"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="156 Anaconda Gate, Hamilton "
+            android:text="McMaster University, Hamilton "
             android:textSize="18dp"
             />
     </LinearLayout>

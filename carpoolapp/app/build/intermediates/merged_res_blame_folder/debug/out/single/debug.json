@@ -56,6 +56,10 @@
         "source": "C:\\Users\\mohaansh\\.gradle\\daemon\\7.5\\com.example.carpoolapp-main-44:\\mipmap-anydpi-v26\\ic_launcher_round.xml"
     },
     {
+        "merged": "com.example.carpoolapp-merged_res-42:/layout_fragment_registration.xml.flat",
+        "source": "com.example.carpoolapp-main-44:/layout/fragment_registration.xml"
+    },
+    {
         "merged": "C:\\Users\\mohaansh\\.gradle\\daemon\\7.5\\com.example.carpoolapp-merged_res-42:\\mipmap-xxhdpi_ic_launcher_round.webp.flat",
         "source": "C:\\Users\\mohaansh\\.gradle\\daemon\\7.5\\com.example.carpoolapp-main-44:\\mipmap-xxhdpi\\ic_launcher_round.webp"
     },
@@ -78,6 +82,10 @@
     {
         "merged": "C:\\Users\\mohaansh\\.gradle\\daemon\\7.5\\com.example.carpoolapp-merged_res-42:\\layout_single_user_rating.xml.flat",
         "source": "C:\\Users\\mohaansh\\.gradle\\daemon\\7.5\\com.example.carpoolapp-main-44:\\layout\\single_user_rating.xml"
+    },
+    {
+        "merged": "com.example.carpoolapp-merged_res-42:/layout_fragment_login.xml.flat",
+        "source": "com.example.carpoolapp-main-44:/layout/fragment_login.xml"
     },
     {
         "merged": "C:\\Users\\mohaansh\\.gradle\\daemon\\7.5\\com.example.carpoolapp-merged_res-42:\\drawable_golf.jpeg.flat",
@@ -110,10 +118,6 @@
     {
         "merged": "C:\\Users\\mohaansh\\.gradle\\daemon\\7.5\\com.example.carpoolapp-merged_res-42:\\layout_fragment_request_ride.xml.flat",
         "source": "C:\\Users\\mohaansh\\.gradle\\daemon\\7.5\\com.example.carpoolapp-main-44:\\layout\\fragment_request_ride.xml"
-    },
-    {
-        "merged": "com.example.carpoolapp-merged_res-42:/layout_fragment_profile.xml.flat",
-        "source": "com.example.carpoolapp-main-44:/layout/fragment_profile.xml"
     },
     {
         "merged": "C:\\Users\\mohaansh\\.gradle\\daemon\\7.5\\com.example.carpoolapp-merged_res-42:\\layout_fragment_registration.xml.flat",
@@ -180,12 +184,12 @@
         "source": "C:\\Users\\mohaansh\\.gradle\\daemon\\7.5\\com.example.carpoolapp-main-44:\\layout\\activity_main.xml"
     },
     {
-        "merged": "C:\\Users\\mohaansh\\.gradle\\daemon\\7.5\\com.example.carpoolapp-merged_res-42:\\layout_single_request_item.xml.flat",
-        "source": "C:\\Users\\mohaansh\\.gradle\\daemon\\7.5\\com.example.carpoolapp-main-44:\\layout\\single_request_item.xml"
-    },
-    {
         "merged": "C:\\Users\\mohaansh\\.gradle\\daemon\\7.5\\com.example.carpoolapp-merged_res-42:\\layout_fragment_profile.xml.flat",
         "source": "C:\\Users\\mohaansh\\.gradle\\daemon\\7.5\\com.example.carpoolapp-main-44:\\layout\\fragment_profile.xml"
+    },
+    {
+        "merged": "C:\\Users\\mohaansh\\.gradle\\daemon\\7.5\\com.example.carpoolapp-merged_res-42:\\layout_single_request_item.xml.flat",
+        "source": "C:\\Users\\mohaansh\\.gradle\\daemon\\7.5\\com.example.carpoolapp-main-44:\\layout\\single_request_item.xml"
     },
     {
         "merged": "C:\\Users\\mohaansh\\.gradle\\daemon\\7.5\\com.example.carpoolapp-merged_res-42:\\drawable_historic.jpeg.flat",

@@ -64,10 +64,6 @@
         "source": "C:\\Users\\mohaansh\\.gradle\\daemon\\7.5\\com.example.carpoolapp-main-44:\\layout\\single_user_item.xml"
     },
     {
-        "merged": "com.example.carpoolapp-mergeDebugResources-41:/layout/fragment_profile.xml",
-        "source": "com.example.carpoolapp-main-44:/layout/fragment_profile.xml"
-    },
-    {
         "merged": "C:\\Users\\mohaansh\\.gradle\\daemon\\7.5\\com.example.carpoolapp-mergeDebugResources-41:\\layout\\single_user_rating.xml",
         "source": "C:\\Users\\mohaansh\\.gradle\\daemon\\7.5\\com.example.carpoolapp-main-44:\\layout\\single_user_rating.xml"
     },
@@ -84,7 +80,15 @@
         "source": "C:\\Users\\mohaansh\\.gradle\\daemon\\7.5\\com.example.carpoolapp-main-44:\\layout\\fragment_offer_ride_details.xml"
     },
     {
+        "merged": "com.example.carpoolapp-mergeDebugResources-41:/layout/fragment_registration.xml",
+        "source": "com.example.carpoolapp-main-44:/layout/fragment_registration.xml"
+    },
+    {
         "merged": "C:\\Users\\mohaansh\\.gradle\\daemon\\7.5\\com.example.carpoolapp-mergeDebugResources-41:\\layout\\fragment_request_ride.xml",
         "source": "C:\\Users\\mohaansh\\.gradle\\daemon\\7.5\\com.example.carpoolapp-main-44:\\layout\\fragment_request_ride.xml"
+    },
+    {
+        "merged": "com.example.carpoolapp-mergeDebugResources-41:/layout/fragment_login.xml",
+        "source": "com.example.carpoolapp-main-44:/layout/fragment_login.xml"
     }
 ]
