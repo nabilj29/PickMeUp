@@ -15,10 +15,7 @@ import com.google.firebase.database.ValueEventListener
 import com.google.firebase.database.ktx.database
 import com.google.firebase.ktx.Firebase
 import android.widget.Toast
-import com.example.carpoolapp.FinalTripDisplayFragment
-import com.example.carpoolapp.R
-import com.example.carpoolapp.RequestAdapter
-import com.example.carpoolapp.User
+import com.example.carpoolapp.*
 
 
 /**
@@ -53,6 +50,29 @@ class RequestDisplayingFragment : Fragment() {
             // Handle item selection
         }
         selectedUsers = requestAdapter.getSelectedUsers()
+        val achen = Offers(
+            userName = "AChen",
+            name = "Alice Chen",
+            email = "alicechen@example.com",
+            phoneNumber = "123-456-7890",
+            address = "1280 Main St W, Hamilton, ON L8S 4L8"
+        )
+
+        val jlipp = Offers(
+            userName = "JLipp",
+            name = "Jackson Lippert",
+            email = "jl@mcmaster.ca",
+            phoneNumber = "123456788",
+            address = "1280 Main St W, Hamilton, ON L8S 4L8"
+        )
+
+        val spiderman = Offers(
+            userName = "spiderman",
+            name = "Tom Holland",
+            email = "therealspidey@mcu.com",
+            phoneNumber = "1112223333",
+            address = "25 Dalewood Avenue, Hamilton, ON L8S 1C2"
+        )
 
 
 

@@ -7,6 +7,8 @@ import android.view.ViewGroup
 import android.widget.RadioButton
 import android.widget.TextView
 import androidx.recyclerview.widget.RecyclerView
+import kotlin.math.roundToInt
+import kotlin.random.Random
 
 class RequestAdapter(private val requestList: ArrayList<User>, param: (Any) -> Unit) : RecyclerView.Adapter<RequestAdapter.RequestViewHolder>() {
     private val selectedUsers = ArrayList<User>()
@@ -21,7 +23,14 @@ class RequestAdapter(private val requestList: ArrayList<User>, param: (Any) -> U
         val requestData: User = requestList[position]
         holder.userName.text = requestData.userName
         holder.address.text = requestData.address
-        holder.rating.text = requestData.rating
+        holder.rating.text = (Random.nextInt(1, 6).toString())
+
+        val timeInt = (Random.nextInt(1, 11).toString())
+        holder.time.text = "+ $timeInt"
+
+        val fareInt = (((timeInt.toInt()*1.13)/2)* (-1))
+        val rounded = (fareInt * 100).roundToInt() / 100.0
+        holder.fare.text = "$ $rounded"
         holder.radioButton.setOnCheckedChangeListener { buttonView, isChecked ->
             if (isChecked) {
                 selectedUsers.add(requestData)
@@ -46,7 +55,9 @@ class RequestAdapter(private val requestList: ArrayList<User>, param: (Any) -> U
     public class RequestViewHolder(itemView: View) : RecyclerView.ViewHolder(itemView) {
         val userName: TextView = itemView.findViewById(R.id.requestingusernamefield)
         val address: TextView = itemView.findViewById(R.id.requeststartinglocationfield)
-        val rating: TextView = itemView.findViewById(R.id.ratinguser_rating)
+        val rating: TextView = itemView.findViewById(R.id.requesterratingfield)
+        val fare: TextView = itemView.findViewById(R.id.estimatedpricechangeStatement)
+        val time: TextView = itemView.findViewById(R.id.estimatedtimechangeStatement)
         val radioButton: RadioButton = itemView.findViewById(R.id.radioButton)
 
         init {

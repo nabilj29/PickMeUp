@@ -30,6 +30,7 @@ class MyAdapter(private val userList : ArrayList<User>) : RecyclerView.Adapter<M
         val user : User = userList[position]
         holder.userName.text = user.userName
         holder.address.text = user.address
+        holder.rating.text = user.rating
         Log.d("MyAdapter", "onBindViewHolder")
 //        holder.reqridebtn.setOnClickListener{
 //
@@ -49,6 +50,7 @@ class MyAdapter(private val userList : ArrayList<User>) : RecyclerView.Adapter<M
     public class MyViewHolder(itemView : View) : RecyclerView.ViewHolder(itemView){
         val userName : TextView = itemView.findViewById(R.id.offeringusernamefield)
         val address : TextView = itemView.findViewById(R.id.offerstartinglocationfield)
+        val rating : TextView = itemView.findViewById(R.id.offererratingfield)
         var reqridebtn = itemView.findViewById<android.widget.Button>(R.id.requestridejoinButton)
         init {
             Log.d("MyAdapter", "MyViewHolder")

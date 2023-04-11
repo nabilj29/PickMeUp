@@ -1,5 +1,3 @@
-package com.example.carpoolapp
-
 import android.os.Bundle
 import android.util.Log
 import androidx.fragment.app.Fragment
@@ -8,30 +6,15 @@ import android.view.View
 import android.view.ViewGroup
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
-import com.google.firebase.database.DataSnapshot
-import com.google.firebase.database.DatabaseError
-import com.google.firebase.database.DatabaseReference
-import com.google.firebase.database.ValueEventListener
-import com.google.firebase.database.ktx.database
-import com.google.firebase.ktx.Firebase
+import com.example.carpoolapp.MyAdapter
+import com.example.carpoolapp.R
+import com.example.carpoolapp.User
 
-
-/**
- * A simple [Fragment] subclass.
- * Use the [OffersDisplayingFragment.newInstance] factory method to
- * create an instance of this fragment.
- */
 class OffersDisplayingFragment : Fragment() {
 
     private lateinit var recyclerView: RecyclerView
     private lateinit var userArrayList: ArrayList<User>
     private lateinit var myAdapter: MyAdapter
-    private lateinit var db: DatabaseReference
-
-    override fun onCreate(savedInstanceState: Bundle?) {
-        super.onCreate(savedInstanceState)
-    }
-
 
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
@@ -48,27 +31,12 @@ class OffersDisplayingFragment : Fragment() {
         recyclerView.adapter = myAdapter
         Log.d(TAG, "Adapter set on RecyclerView")
 
-        // initialize Firebase database reference
-        db = Firebase.database.reference.child("Users")
-        Log.d(TAG, "Connecting to Firebase database...")
+        // Add some dummy data
+        userArrayList.add(User("johndoe", "John Doe", "johndoe@gmail.com", "555-5555", "123 Main St", "4.5"))
+        userArrayList.add(User("janedoe", "Jane Doe", "janedoe@gmail.com", "555-5555", "456 Elm St", "3.8"))
 
-        db.addValueEventListener(object : ValueEventListener {
-            override fun onDataChange(snapshot: DataSnapshot) {
-                userArrayList.clear()
-
-                for (offerSnapshot in snapshot.children) {
-                    val offer = offerSnapshot.getValue(User::class.java)
-                    userArrayList.add(offer!!)
-                }
-
-                myAdapter.notifyDataSetChanged()
-                Log.d(TAG, "Offers retrieved successfully")
-            }
-
-            override fun onCancelled(error: DatabaseError) {
-                Log.e(TAG, "Error fetching offers", error.toException())
-            }
-        })
+        myAdapter.notifyDataSetChanged()
+        Log.d(TAG, "Local data added successfully")
 
         return rootView
     }
