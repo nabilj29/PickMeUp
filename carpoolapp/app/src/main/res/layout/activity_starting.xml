@@ -41,9 +41,11 @@
         android:layout_height="162dp"
         android:layout_gravity="center"
         android:src="@drawable/request_ride_icon"
-        tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="92dp"
-        tools:layout_editor_absoluteY="328dp" />
+        app:layout_constraintBottom_toTopOf="@+id/movetosignupbtn"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/appheading"
+        tools:ignore="MissingConstraints" />
 
     <Button
         android:id="@+id/movetologinbtn"

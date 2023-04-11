@@ -16,6 +16,7 @@ import androidx.core.content.ContentProviderCompat.requireContext
 
 import com.example.carpoolapp.databinding.ActivityMainBinding
 import androidx.fragment.app.Fragment
+import java.security.AccessController.getContext
 
 class MyAdapter(private val userList : ArrayList<User>) : RecyclerView.Adapter<MyAdapter.MyViewHolder>(){
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): MyAdapter.MyViewHolder {
@@ -35,7 +36,8 @@ class MyAdapter(private val userList : ArrayList<User>) : RecyclerView.Adapter<M
         holder.rating.text = user.rating
         Log.d("MyAdapter", "onBindViewHolder")
         holder.reqridebtn.setOnClickListener{
-            Toast.makeText(getContext(), "Sending Request to offering user...", Toast.LENGTH_SHORT).show()
+            Toast.makeText(holder.itemView.context, "Sending Request to offering user...", Toast.LENGTH_SHORT).show()
+
 
         }
 
