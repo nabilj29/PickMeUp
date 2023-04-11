@@ -22,7 +22,7 @@ class HomeFragment : Fragment() {
     private var param1: String? = null
     private var param2: String? = null
     private lateinit var RecyclerView: androidx.recyclerview.widget.RecyclerView
-    private lateinit var newArrayList: ArrayList<Locations>
+
     private lateinit var myAdapter: LocationsAdapter
     lateinit var imageId: Array<Int>
     lateinit var heading: Array<String>
@@ -69,6 +69,14 @@ class HomeFragment : Fragment() {
             "610 York Blvd, Hamilton, ON",
             "237 Barton St E, Hamilton, ON"
         )
+
+        val newArrayList = ArrayList<Locations>()
+
+        newArrayList.add(Locations( R.drawable.mcmaster, "McMaster University", "1280 Main St W, Hamilton, ON"))
+        newArrayList.add(Locations( R.drawable.art, "Art Gallery of Hamilton", "123 King St W, Hamilton ON"))
+        newArrayList.add(Locations( R.drawable.golf, "Chedoke Golf Club", "563 Aberdeen Ave, Hamilton, ON"))
+        newArrayList.add(Locations( R.drawable.historic, "Dundurn Castle", "610 York Blvd, Hamilton, ON"))
+        newArrayList.add(Locations( R.drawable.hospital, "Hamilton General Hospital", "237 Barton St E, Hamilton, ON"))
 
         myAdapter = LocationsAdapter(newArrayList)
         RecyclerView.adapter = myAdapter

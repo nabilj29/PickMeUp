@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "com.example.carpoolapp-mergeDebugResources-39:/values-v16/values-v16.xml",
+            "outputFile": "com.example.carpoolapp-mergeDebugResources-40:/values-v16/values-v16.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\nabil\\.gradle\\caches\\transforms-3\\d5ec653838f23bfcc2d087ae15f0c1a5\\transformed\\appcompat-1.6.1\\res\\values-v16\\values-v16.xml",
+                    "source": "C:\\Users\\mohaansh\\.gradle\\caches\\transforms-3\\f894a3435f38b4a3d18fe2c4aa3f86ee\\transformed\\appcompat-1.6.1\\res\\values-v16\\values-v16.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
@@ -23,7 +23,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\nabil\\.gradle\\caches\\transforms-3\\b865b057b323edf6f9ec3086703bdab8\\transformed\\core-1.9.0\\res\\values-v16\\values-v16.xml",
+                    "source": "C:\\Users\\mohaansh\\.gradle\\caches\\transforms-3\\6c4ff75e37b79677a987a1cc83e0ba28\\transformed\\core-1.10.0\\res\\values-v16\\values-v16.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",

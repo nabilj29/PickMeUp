@@ -12,9 +12,14 @@ color white
 dimen fragment_horizontal_margin
 dimen fragment_vertical_margin
 dimen text_margin
+drawable art
+drawable golf
+drawable historic
 drawable home_menu_icon
+drawable hospital
 drawable ic_launcher_background
 drawable ic_launcher_foreground
+drawable mcmaster
 drawable offer_ride_icon
 drawable profile_page_icon
 drawable request_ride_icon
@@ -52,6 +57,7 @@ id finishrideBtn
 id homeMenu
 id imageView
 id imageView2
+id locationHeading
 id loginbtn
 id loginpassword
 id logintitle
@@ -74,6 +80,7 @@ id pfp_phone_number
 id pfp_rating
 id pfp_username
 id phoneNumber
+id popularlocationsrecyclerView
 id radioButton
 id ratingTitle
 id ratingValue
@@ -98,6 +105,7 @@ id settingsMenu
 id startinglocationheading
 id submitIDbutton
 id submitOfferbutton
+id title_image
 id userName
 id user_registration_password
 id username
@@ -118,6 +126,7 @@ layout fragment_registration
 layout fragment_request_displaying
 layout fragment_request_ride
 layout fragment_starting
+layout single_location_item
 layout single_offer_item
 layout single_request_item
 layout single_user_item
