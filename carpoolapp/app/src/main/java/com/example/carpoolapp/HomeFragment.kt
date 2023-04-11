@@ -20,6 +20,11 @@ class HomeFragment : Fragment() {
     // TODO: Rename and change types of parameters
     private var param1: String? = null
     private var param2: String? = null
+    private lateinit var newRecyclerView: androidx.recyclerview.widget.RecyclerView
+    private lateinit var newArrayList: ArrayList<Locations>
+    lateinit var imageId: Array<Int>
+    lateinit var heading: Array<String>
+    lateinit var address: Array<String>
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -34,6 +39,31 @@ class HomeFragment : Fragment() {
         savedInstanceState: Bundle?
     ): View? {
         // Inflate the layout for this fragment
+
+        imageId = arrayOf(
+            R.drawable.mcmaster,
+            R.drawable.art,
+            R.drawable.golf,
+            R.drawable.historic,
+            R.drawable.hospital
+        )
+
+        heading = arrayOf(
+            "McMaster University",
+            "Art Gallery of Hamilton",
+            "Chedoke Golf Club",
+            "Dundurn Castle",
+            "Hamilton General Hospital"
+        )
+
+        address = arrayOf(
+            "1280 Main St W, Hamilton, ON",
+            "123 King St W, Hamilton ON",
+            "563 Aberdeen Ave, Hamilton, ON",
+            "610 York Blvd, Hamilton, ON",
+            "237 Barton St E, Hamilton, ON"
+        )
+
         return inflater.inflate(R.layout.fragment_home, container, false)
     }
 
