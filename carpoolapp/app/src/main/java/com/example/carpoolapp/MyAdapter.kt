@@ -11,6 +11,8 @@ import androidx.recyclerview.widget.RecyclerView
 import org.w3c.dom.Text
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.widget.Toast
+import androidx.core.content.ContentProviderCompat.requireContext
 
 import com.example.carpoolapp.databinding.ActivityMainBinding
 import androidx.fragment.app.Fragment
@@ -32,11 +34,10 @@ class MyAdapter(private val userList : ArrayList<User>) : RecyclerView.Adapter<M
         holder.address.text = user.address
         holder.rating.text = user.rating
         Log.d("MyAdapter", "onBindViewHolder")
-//        holder.reqridebtn.setOnClickListener{
-//
-//
-//
-//        }
+        holder.reqridebtn.setOnClickListener{
+            Toast.makeText(getContext(), "Sending Request to offering user...", Toast.LENGTH_SHORT).show()
+
+        }
 
 
     }
