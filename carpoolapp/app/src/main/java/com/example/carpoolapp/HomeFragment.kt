@@ -5,6 +5,7 @@ import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import androidx.recyclerview.widget.LinearLayoutManager
 
 // TODO: Rename parameter arguments, choose names that match
 // the fragment initialization parameters, e.g. ARG_ITEM_NUMBER
@@ -20,8 +21,9 @@ class HomeFragment : Fragment() {
     // TODO: Rename and change types of parameters
     private var param1: String? = null
     private var param2: String? = null
-    private lateinit var newRecyclerView: androidx.recyclerview.widget.RecyclerView
+    private lateinit var RecyclerView: androidx.recyclerview.widget.RecyclerView
     private lateinit var newArrayList: ArrayList<Locations>
+    private lateinit var myAdapter: LocationsAdapter
     lateinit var imageId: Array<Int>
     lateinit var heading: Array<String>
     lateinit var address: Array<String>
@@ -39,6 +41,10 @@ class HomeFragment : Fragment() {
         savedInstanceState: Bundle?
     ): View? {
         // Inflate the layout for this fragment
+        val rootView = inflater.inflate(R.layout.fragment_home, container, false)
+        RecyclerView = rootView.findViewById(R.id.popularlocationsrecyclerView)
+        RecyclerView.layoutManager = LinearLayoutManager(activity)
+        RecyclerView.setHasFixedSize(true)
 
         imageId = arrayOf(
             R.drawable.mcmaster,
@@ -64,7 +70,12 @@ class HomeFragment : Fragment() {
             "237 Barton St E, Hamilton, ON"
         )
 
-        return inflater.inflate(R.layout.fragment_home, container, false)
+        myAdapter = LocationsAdapter(newArrayList)
+        RecyclerView.adapter = myAdapter
+
+        myAdapter.notifyDataSetChanged()
+
+        return rootView
     }
 
     companion object {
